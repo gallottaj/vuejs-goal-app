@@ -26,15 +26,25 @@ export default {
     };
   },
   created: function() {
-    console.log('in the created function');
+    console.log('showing all goals');
     axios.get('http://localhost:3000/api/goals').then(response => {
       console.log(response.data);
       this.goals = response.data;
     }),
-    console.log('in the created function');
+    console.log('showing all users');
     axios.get('http://localhost:3000/api/users').then(response => {
       console.log(response.data);
       this.users = response.data;
+    }),
+    console.log('showing all sub_goals');
+    axios.get('http://localhost:3000/api/sub_goals').then(response => {
+      console.log(response.data);
+      this.sub_goals = response.data;
+    }),
+    console.log('showing all journals');
+    axios.get('http://localhost:3000/api/journals').then(response => {
+      console.log(response.data);
+      this.journals = response.data;          
     });
   },
   methods: {},
