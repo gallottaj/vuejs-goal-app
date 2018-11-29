@@ -3,10 +3,6 @@
    <!--  <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <h1>{{ message }}</h1>
-    <div v-for="goal in goals">
-      <h3>{{ goal.goal_name }}</h3>
-      <h4>{{ goal.due_date }}</h4>
-      <hr>
     </div>
   </div>
 </template>

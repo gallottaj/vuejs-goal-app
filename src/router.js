@@ -1,10 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import Goals from './views/Goals.vue'
-import User from './views/User.vue'
-// import Journals from './views/Journals.vue'
-import Sub_goals from './views/Sub_goals.vue'
+import Signup from './views/Signup.vue'
+import Login from './views/Login.vue'
+
+
+import GoalsIndex from './views/GoalsIndex.vue'
+import UserShow from './views/UserShow.vue'
+import JournalsIndex from './views/JournalsIndex.vue'
+import Sub_GoalsIndex from './views/Sub_GoalsIndex.vue'
 
 
 
@@ -18,26 +22,36 @@ export default new Router({
       name: 'home',
       component: Home
     },
-     {
-      path: '/goals',
-      name: 'goals',
-      component: Goals
+    {
+      path: '/signup',
+      name: 'signup',
+      component: Signup
     },
     {
-      path: '/user',
-      name: 'user',
-      component: User
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+     {
+      path: '/goals',
+      name: 'goalsIndex',
+      component: GoalsIndex
+    },
+    {
+      path: '/user/:id',
+      name: 'userShow',
+      component: UserShow
     },
     {
       path: '/sub_goals',
-      name: 'sub_goals',
-      component: Sub_goals
+      name: 'sub_goalsIndex',
+      component: Sub_GoalsIndex
     },
-    //  {
-    //   path: '/journals',
-    //   name: 'journals',
-    //   component: Journals
-    // },
+     {
+      path: '/journals',
+      name: 'journalsIndex',
+      component: JournalsIndex
+    },
     {
       path: '/about',
       name: 'about',
