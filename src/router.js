@@ -3,12 +3,13 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Signup from './views/Signup.vue'
 import Login from './views/Login.vue'
+import Logout from "./views/Logout.vue";
 
 
 import GoalsIndex from './views/GoalsIndex.vue'
 import UserShow from './views/UserShow.vue'
 import JournalsIndex from './views/JournalsIndex.vue'
-import Sub_GoalsIndex from './views/Sub_GoalsIndex.vue'
+import SubGoalsIndex from './views/SubGoalsIndex.vue'
 
 
 
@@ -23,29 +24,37 @@ export default new Router({
       component: Home
     },
     {
-      path: '/signup',
+      path: '/user/:id',
+      name: 'userShow',
+      component: UserShow
+    },
+    {
+      // users create
+      path: '/signup', 
       name: 'signup',
       component: Signup
     },
     {
+      // sessions create
       path: '/login',
       name: 'login',
       component: Login
+    },
+    {
+      path: '/logout',
+      name: 'logout',
+      component: Logout
     },
      {
       path: '/goals',
       name: 'goalsIndex',
       component: GoalsIndex
     },
+    
     {
-      path: '/user/:id',
-      name: 'userShow',
-      component: UserShow
-    },
-    {
-      path: '/sub_goals',
-      name: 'sub_goalsIndex',
-      component: Sub_GoalsIndex
+      path: '/subgoals',
+      name: 'subgoalsIndex',
+      component: SubGoalsIndex
     },
      {
       path: '/journals',
