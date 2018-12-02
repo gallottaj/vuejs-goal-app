@@ -3,9 +3,6 @@
     <div class="container">
       <form v-on:submit.prevent="submit()">
         <h1>Create a journal </h1>
-        <ul>
-          <li class="text-danger" v-for="error in errors">{{ error }}</li>
-        </ul>
         <div class="form-group">
           <label>entry_type:</label>
           <input type="text" class="form-control" v-model="entry_type">
