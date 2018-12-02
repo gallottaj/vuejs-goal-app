@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <h1>{{ message }}</h1>
+  <a v-bind:href="'/#/journals/create'" class="btn btn-primary">create a journal</a>
   <div class="container">
       <div class="row">
         <div class="col-sm-4" v-for="journal in journals">
