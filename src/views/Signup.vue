@@ -13,7 +13,7 @@
         </div>
         <div class="form-group">
           <label>Last Name:</label>
-          <input type="text" class="form-control" v-model="name">
+          <input type="text" class="form-control" v-model="last_name">
         </div>
         <div class="form-group">
           <label>Phone:</label>
@@ -43,8 +43,10 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      name: "",
+      first_name: "",
+      last_name: "",
       email: "",
+      phone_number: "",
       password: "",
       passwordConfirmation: "",
       errors: []
@@ -53,8 +55,10 @@ export default {
   methods: {
     submit: function() {
       var params = {
-        name: this.name,
+        first_name: this.first_name,
+        last_name: this.last_name,
         email: this.email,
+        phone_number: this.phone_number,
         password: this.password,
         password_confirmation: this.passwordConfirmation
       };
