@@ -5,7 +5,7 @@
       <router-link to="/about">About</router-link>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/#/">home</a>
+      <a class="navbar-brand" href="/#/">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,10 +13,10 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
           </li>
-          </li>
+          </li
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Auth
+              Account
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="/#/signup">Signup</a>
@@ -24,6 +24,9 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="/#/logout">Logout</a>
             </div>
+            <li>
+            <a class="nav-link" href="/#/JournalsIndex">Journals</a>
+          </li>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

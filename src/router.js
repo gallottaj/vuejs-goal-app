@@ -4,11 +4,9 @@ import Home from './views/Home.vue'
 import Signup from './views/Signup.vue'
 import Login from './views/Login.vue'
 import Logout from "./views/Logout.vue";
-
-
 import GoalsIndex from './views/GoalsIndex.vue'
 import UserShow from './views/UserShow.vue'
-import JournalsIndex from './views/JournalsIndex.vue'
+import JournalsCreate from './views/JournalsCreate.vue'
 import SubGoalsIndex from './views/SubGoalsIndex.vue'
 
 
@@ -58,8 +56,8 @@ export default new Router({
     },
      {
       path: '/journals',
-      name: 'journalsIndex',
-      component: JournalsIndex
+      name: 'journalsCreate',
+      component: JournalsCreate
     },
     {
       path: '/about',
