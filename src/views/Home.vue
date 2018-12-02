@@ -3,7 +3,7 @@
    <!--  <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <h1>{{ message }}</h1>
-  <a v-bind:href="'/#/journals/'" class="btn btn-primary">Create a new journal!</a>
+    <a v-bind:href="'/#/journals/index'" class="btn btn-primary">view journals</a>
     </div>
   </div>
 </template>

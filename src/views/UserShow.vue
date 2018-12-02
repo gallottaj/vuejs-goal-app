@@ -7,12 +7,12 @@
           <p class="card-text">last_name: {{ user.last_name }}</p>
           <p class="card-text">phone_number: {{user.phone_number}}</p>
           <p class="card-text">email: {{user.email}}</p>
-<!--           <a href="/show.html" class="btn btn-primary">Go somewhere</a>
- -->     </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
 <style>
 </style>
 

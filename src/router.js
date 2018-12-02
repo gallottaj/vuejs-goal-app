@@ -8,7 +8,8 @@ import GoalsIndex from './views/GoalsIndex.vue'
 import UserShow from './views/UserShow.vue'
 import JournalsCreate from './views/JournalsCreate.vue'
 import SubGoalsIndex from './views/SubGoalsIndex.vue'
-
+import JournalsIndex from './views/JournalsIndex.vue'
+import JournalsShow from './views/JournalsShow.vue'
 
 
 
@@ -55,11 +56,21 @@ export default new Router({
       component: SubGoalsIndex
     },
      {
-      path: '/journals',
+      path: '/journals/create',
       name: 'journalsCreate',
       component: JournalsCreate
     },
-    {
+     {
+      path: '/journals/index',
+      name: 'journalsIndex',
+      component: JournalsIndex
+    },
+     {
+      path: '/journals/:id',
+      name: 'journalsShow',
+      component: JournalsShow
+    },
+      {
       path: '/about',
       name: 'about',
       // route level code-splitting

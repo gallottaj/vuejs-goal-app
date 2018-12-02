@@ -26,7 +26,7 @@
               <a class="dropdown-item" href="/#/logout">Logout</a>
             </div>
             <li>
-            <a class="nav-link" href="/#/JournalsIndex">Journals</a>
+            <a class="nav-link" href="/#/journals/index">Journals</a>
           </li>
           </li>
         </ul>
