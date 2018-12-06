@@ -10,6 +10,7 @@
           <p class="card-text">goal_name: {{ goal.goal_name }}</p>
           <p class="card-text">due_date: {{ goal.due_date }}</p>
           <p class="card-text">status: {{ goal.status }}</p>
+          <p class="card-text">journal id: {{ goal.journal_id }}</p>
 <!--     <a v-bind:href="'/#/goals/' + goal.id" class="btn btn-primary">See my goals</a>
  -->    </div>
       </div>  
