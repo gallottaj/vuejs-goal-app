@@ -7,10 +7,13 @@ import Logout from "./views/Logout.vue";
 import GoalsIndex from './views/GoalsIndex.vue'
 import UserShow from './views/UserShow.vue'
 import JournalsCreate from './views/JournalsCreate.vue'
-import SubGoalsShow from './views/SubGoalsShow.vue'
 import JournalsIndex from './views/JournalsIndex.vue'
 import JournalsShow from './views/JournalsShow.vue'
 import GoalsShow from './views/GoalsShow.vue'
+import SubGoalsIndex from './views/SubGoalsIndex.vue'
+import SubGoalsShow from './views/SubGoalsShow.vue'
+
+
 
 
 
@@ -56,6 +59,12 @@ export default new Router({
       path: '/goals/:id',
       name: 'goalsShow',
       component: GoalsShow
+    },
+    // subgoals
+    {
+      path: '/subgoals',
+      name: 'subgoalsIndex',
+      component: SubGoalsIndex
     },
     {
       path: '/subgoals/:id',
