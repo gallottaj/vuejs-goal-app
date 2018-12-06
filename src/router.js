@@ -10,6 +10,8 @@ import JournalsCreate from './views/JournalsCreate.vue'
 import SubGoalsIndex from './views/SubGoalsIndex.vue'
 import JournalsIndex from './views/JournalsIndex.vue'
 import JournalsShow from './views/JournalsShow.vue'
+import GoalsShow from './views/GoalsShow.vue'
+
 
 
 
@@ -27,14 +29,14 @@ export default new Router({
       name: 'userShow',
       component: UserShow
     },
+    // sessions
     {
-      // users create
       path: '/signup', 
       name: 'signup',
       component: Signup
     },
     {
-      // sessions create
+  
       path: '/login',
       name: 'login',
       component: Login
@@ -44,12 +46,17 @@ export default new Router({
       name: 'logout',
       component: Logout
     },
+    // goals 
      {
       path: '/goals',
       name: 'goalsIndex',
       component: GoalsIndex
     },
-    
+    {
+      path: '/goals/:id',
+      name: 'goalsShow',
+      component: GoalsShow
+    },
     {
       path: '/subgoals',
       name: 'subgoalsIndex',

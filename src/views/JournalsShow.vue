@@ -7,7 +7,7 @@
           <p class="card-text">entry_body: {{ journal.entry_body }}</p>
           <p class="card-text">entry_title: {{ journal.entry_title }}</p>
 <!--           <a v-bind:href="'/#/goals/' + goal.id" class="btn btn-primary">See my goals</a>
- -->        </div>
+ -->    </div>
       </div>
     </div>
   </div>
@@ -21,7 +21,7 @@ export default {
   data: function() {
     return {
       message: "Welcome to Vue.js!",
-      journal: {}
+      journal: {},
     };
   },
   created: function() {
@@ -31,6 +31,13 @@ export default {
       this.journal = response.data;
     });
   },
+  // function() {
+  //   console.log(this);
+  //   axios.get('http://localhost:3000/api/goals/' + this.$route.params.id).then(response => {
+  //     console.log(response.data);
+  //     this.goals = response.data;
+  //   });
+  // },
   methods: {},
   computed: {}
 };
