@@ -2,7 +2,137 @@
     <div class="home">
      <!-- CONTENT --------------------------------------------------------------------------------->
 
-        <!-- Process -->
+        <!-- Work Section -->
+        <section id="work" class="wow fadeIn pt pt-sm-80 text-center">
+            <div class="container">
+                <h3>Journals</h3>
+                <div class="spacer-30"></div>
+              </div>
+
+            <!-- Work Gallary -->
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col container-grid nf-col-4">
+                        <div class="nf-item branding design coffee">
+                            <div class="item-box">
+                                <a class="btn btn-primar" href="/#/goals/2" title="Journal">
+                                  <img class="item-container" src="https://images.unsplash.com/photo-1543931331-27f622134f7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="1" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Journal 1</h5>
+                                            <p class="white">Due Date</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item photo">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/2.jpg" title="Vivamus elementum semper">
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1544177817-454e1238e05f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="2" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Journal 2</h5>
+                                            <p class="white">Due Date</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item branding design coffee">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/3.jpg" title="Quisque rutrum">
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1544084944-15269ec7b5a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="4" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Journal 3</h5>
+                                            <p class="white">Due Date</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item branding design">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/4.jpg" title="Tellus eget condimentum">
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1543964496-d83d90140d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="4" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Journal 4</h5>
+                                            <p class="white">Due Date</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item branding design">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/5.jpg" title="Nullam quis ant">
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1543816228-531a15980981?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1321&q=80" alt="5" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Journal 5</h5>
+                                            <p class="white">Due Date</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item photo">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/6.jpg" title="Sed fringilla mauris">
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1466071624063-c556307cb4d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80" alt="6" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Journal 6</h5>
+                                            <p class="white">Due Date</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item design">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/7.jpg" title="Augue velit cursus">
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" alt="7" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Journal 7</h5>
+                                            <p class="white">Due Date</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="nf-item coffee">
+                            <div class="item-box">
+                                <a class="cbox-gallary1" href="img/portfolio/8.jpg" title="Donec sodales sagittis">
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1459128806329-1b61d19a0f93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="8" />
+                                    <div class="item-mask">
+                                        <div class="item-caption">
+                                            <h5 class="white">Journal 8</h5>
+                                            <p class="white">Due Date</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Work Gallary -->
+        </section>
+        <!-- End Work Section -->
+
+                <!-- Process -->
         <section id="process" class="ptb ptb-sm-80">
             <div class="wow fadeInLeft container text-center">
                 <h3>Easy Process</h3>
@@ -42,136 +172,6 @@
             </div>
         </section>
         <!-- End Process -->
-
-        <!-- Work Section -->
-        <section id="work" class="wow fadeIn pt pt-sm-80 text-center">
-            <div class="container">
-                <h3>Journals</h3>
-                <div class="spacer-30"></div>
-              </div>
-
-            <!-- Work Gallary -->
-            <div class="container-fluid ">
-                <div class="row">
-                    <div class="col container-grid nf-col-4">
-                        <div class="nf-item branding design coffee">
-                            <div class="item-box">
-                                <a class="btn btn-primar" href="/#/goals/2" title="Journal">
-                                  <img class="item-container" src="img/portfolio/1.jpg" alt="1" />
-                                    <div class="item-mask">
-                                        <div class="item-caption">
-                                            <h5 class="white">Journal Title</h5>
-                                            <p class="white">Goal Title</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="nf-item photo">
-                            <div class="item-box">
-                                <a class="cbox-gallary1" href="img/portfolio/2.jpg" title="Vivamus elementum semper">
-                                    <img class="item-container" src="img/portfolio/2.jpg" alt="2" />
-                                    <div class="item-mask">
-                                        <div class="item-caption">
-                                            <h5 class="white">Vivamus elementum semper</h5>
-                                            <p class="white">Photo</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="nf-item branding design coffee">
-                            <div class="item-box">
-                                <a class="cbox-gallary1" href="img/portfolio/3.jpg" title="Quisque rutrum">
-                                    <img class="item-container" src="img/portfolio/3.jpg" alt="4" />
-                                    <div class="item-mask">
-                                        <div class="item-caption">
-                                            <h5 class="white">Quisque rutrum</h5>
-                                            <p class="white">Branding, Design, Coffee</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="nf-item branding design">
-                            <div class="item-box">
-                                <a class="cbox-gallary1" href="img/portfolio/4.jpg" title="Tellus eget condimentum">
-                                    <img class="item-container" src="img/portfolio/4.jpg" alt="4" />
-                                    <div class="item-mask">
-                                        <div class="item-caption">
-                                            <h5 class="white">Tellus eget condimentum</h5>
-                                            <p class="white">Design</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="nf-item branding design">
-                            <div class="item-box">
-                                <a class="cbox-gallary1" href="img/portfolio/5.jpg" title="Nullam quis ant">
-                                    <img class="item-container" src="img/portfolio/5.jpg" alt="5" />
-                                    <div class="item-mask">
-                                        <div class="item-caption">
-                                            <h5 class="white">Nullam quis ant</h5>
-                                            <p class="white">Branding, Design</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="nf-item photo">
-                            <div class="item-box">
-                                <a class="cbox-gallary1" href="img/portfolio/6.jpg" title="Sed fringilla mauris">
-                                    <img class="item-container" src="img/portfolio/6.jpg" alt="6" />
-                                    <div class="item-mask">
-                                        <div class="item-caption">
-                                            <h5 class="white">Sed fringilla mauris</h5>
-                                            <p class="white">Photo</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="nf-item design">
-                            <div class="item-box">
-                                <a class="cbox-gallary1" href="img/portfolio/7.jpg" title="Augue velit cursus">
-                                    <img class="item-container" src="img/portfolio/7.jpg" alt="7" />
-                                    <div class="item-mask">
-                                        <div class="item-caption">
-                                            <h5 class="white">Augue velit cursus</h5>
-                                            <p class="white">Design</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="nf-item coffee">
-                            <div class="item-box">
-                                <a class="cbox-gallary1" href="img/portfolio/8.jpg" title="Donec sodales sagittis">
-                                    <img class="item-container" src="img/portfolio/8.jpg" alt="8" />
-                                    <div class="item-mask">
-                                        <div class="item-caption">
-                                            <h5 class="white">Donec sodales sagittis</h5>
-                                            <p class="white">Coffee</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- End Work Gallary -->
-        </section>
-        <!-- End Work Section -->
 
         <!--About Section-->
         <section id="about" class="wow fadeIn ptb ptb-sm-80">
