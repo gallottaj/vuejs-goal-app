@@ -22,6 +22,7 @@
         <input type="submit" class="btn btn-primary" value="Submit">
       </form>
     </div>
+    <a v-bind:href="'/#/subgoals'" class="btn btn-primary"> I'm done - take me to index page </a>
   </div>
 </template>
 
@@ -57,7 +58,7 @@ export default {
         axios
           .post('http://localhost:3000/api/sub_goals/', params)
           .then(response => {
-            this.$router.push("/subgoals");
+            this.$router.push("/subgoals-create");
           })
           .catch(error => {
             this.errors = error.response.data.errors;

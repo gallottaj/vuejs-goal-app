@@ -29,7 +29,7 @@ var axios = require('axios');
 export default {
   data: function() {
     return {
-      message: "These are your sub_goals pertaining to (goal_name)",
+      message: "These are your subgoals",
       sub_goals: {}
     };
   },
