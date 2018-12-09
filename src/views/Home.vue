@@ -19,6 +19,8 @@
                 </div>
                 <!-- End work Filter -->
             </div>
+
+
             <!-- Work Gallary -->
             <div class="container-fluid ">
                 <div class="row">
@@ -27,7 +29,7 @@
                         <div class="nf-item branding design coffee">
                             <div class="item-box">
                                 <a class="cbox-gallary1" href="img/portfolio/1.jpg" title="Consequat massa quis">
-                                    <img class="item-container" src="img/portfolio/1.jpg" alt="1" />
+                                  <img class="item-container" src="img/portfolio/1.jpg" alt="1" />
                                     <div class="item-mask">
                                         <div class="item-caption">
                                             <h5 class="white">Consequat massa quis</h5>
@@ -150,33 +152,27 @@
                 <div class="spacer-60"></div>
                 <div class="row">
                     <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step1 - Skype Interview" data-tipper-options='{"direction":"top"}'>
-                            <div class="page-icon-top"><i class="ion ion-ios-people-outline"></i></div>
-                            <h6>Interview</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step2 - Project Plan" data-tipper-options='{"direction":"top"}'>
-                            <div class="page-icon-top"><i class="ion ion-ios-paper-outline"></i></div>
-                            <h6>Plan</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step3 - Design" data-tipper-options='{"direction":"top"}'>
+                        <div class="tipped" data-title="Step 1 - Journal" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
-                            <h6>Design</h6>
+                          <a v-bind:href="'/#/journals-create'" class="btn btn-primary">Create a journal</a>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step4 - Development" data-tipper-options='{"direction":"top"}'>
+                        <div class="tipped" data-title="Step 2 - Set Goals" data-tipper-options='{"direction":"top"}'>
+                            <div class="page-icon-top"><i class="ion ion-ios-paper-outline"></i></div>
+                          <a v-bind:href="'/#/goals-create'" class="btn btn-primary">Create a goal</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6">
+                        <div class="tipped" data-title="Step 3 - Set Sub-Goals" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
-                            <h6>Development</h6>
+                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Set Sub-Goals</a>
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step5 - Testing" data-tipper-options='{"direction":"top"}'>
-                            <div class="page-icon-top"><i class="ion ion-ios-pulse"></i></div>
-                            <h6>Testing</h6>
+                      <div class="col-md-2 col-sm-4 col-6">
+                        <div class="tipped" data-title="Step 4 - Reflect " data-tipper-options='{"direction":"top"}'>
+                            <div class="page-icon-top"><i class="ion ion-ios-people-outline"></i></div>
+                            <h6>Reflect</h6>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-4 col-6">

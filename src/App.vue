@@ -64,80 +64,19 @@
                                     </div>
                                 </li>
                                 <li class="nav-menu-item">
-                                    <a href="#">Pages</a>
+                                    <a href="#">Home</a>
                                     <div class="nav-dropdown">
                                         <ul>
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li class="nav-menu-item">
-                                                <a href="#">About Us</a>
-                                                <ul class="nav-dropdown-sub">
-                                                    <li><a href="about-1.html">About 1</a></li>
-                                                    <li><a href="about-2.html">About 2</a></li>
-                                                    <li><a href="about-3.html">About 3</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-menu-item">
-                                                <a href="#">Service</a>
-                                                <ul class="nav-dropdown-sub">
-                                                    <li><a href="service-1.html">Service 1</a></li>
-                                                    <li><a href="service-2.html">Service 2</a></li>
-                                                    <li><a href="service-3.html">Service 3</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-menu-item">
-                                                <a href="#">Contact Us</a>
-                                                <ul class="nav-dropdown-sub">
-                                                    <li><a href="contact-1.html">Contact 1</a></li>
-                                                    <li><a href="contact-2.html">Contact 2</a></li>
-                                                    <li><a href="contact-3.html">Contact 3</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-menu-item">
-                                                <a href="#">Faq</a>
-                                                <ul class="nav-dropdown-sub">
-                                                    <li><a href="faq-1.html">Faq 1</a></li>
-                                                    <li><a href="faq-2.html">Faq 2</a></li>
-                                                </ul>
-                                            </li>
                                             <li class="nav-menu-item">
                                                 <a href="#">Login / Register</a>
                                                 <ul class="nav-dropdown-sub">
-                                                    <li><a href="login.html">Login</a></li>
-                                                    <li><a href="register.html">Register</a></li>
-                                                    <li><a href="login-register.html">Login / Register</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-menu-item">
-                                                <a href="#">404 Error</a>
-                                                <ul class="nav-dropdown-sub">
-                                                    <li><a href="404-error-1.html">404 page1</a></li>
-                                                    <li><a href="404-error-2.html">404 page2</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="sidebar-left.html">Sidebar Left</a></li>
-                                            <li><a href="sidebar-right.html">Sidebar Right</a></li>
-                                            <li><a href="blank-page.html">Blank Page</a></li>
-                                            <li class="nav-menu-item">
-                                                <a href="#">Submenu Right</a>
-                                                <ul class="nav-dropdown-sub">
-                                                    <li><a href="#">Submenu 1</a></li>
-                                                    <li><a href="#">Submenu 2</a></li>
-                                                    <li><a href="#">Submenu 3</a></li>
-                                                    <li><a href="#">Submenu 4</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-menu-item">
-                                                <a href="#">Submenu left</a>
-                                                <ul class="nav-dropdown-sub left">
-                                                    <li><a href="#">Submenu 1</a></li>
-                                                    <li><a href="#">Submenu 2</a></li>
-                                                    <li><a href="#">Submenu 3</a></li>
-                                                    <li><a href="#">Submenu 4</a></li>
+                                                    <li><a href="/#/login">Login</a></li>
+                                                    <li><a href="/#/signup">Register</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </div>
-                                </li>
+                                </li> 
                                 <li class="nav-menu-item mega-menu">
                                     <a href="#">Portfolio</a>
                                     <div class="nav-dropdown mega-dropdown">

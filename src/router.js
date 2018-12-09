@@ -79,7 +79,7 @@ export default new Router({
       component: SubGoalsCreate
     },
      {
-      path: '/journals/create',
+      path: '/journals-create',
       name: 'journalsCreate',
       component: JournalsCreate
     },
