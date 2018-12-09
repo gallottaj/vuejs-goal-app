@@ -22,6 +22,7 @@
         <input type="submit" class="btn btn-primary" value="Submit">
       </form>
     </div>
+    <a v-bind:href="'/#/goals-create'" class="btn btn-primary">Create a new goal</a>
   </div>
 </template>
 

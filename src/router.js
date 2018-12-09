@@ -10,13 +10,10 @@ import JournalsCreate from './views/JournalsCreate.vue'
 import JournalsIndex from './views/JournalsIndex.vue'
 import JournalsShow from './views/JournalsShow.vue'
 import GoalsShow from './views/GoalsShow.vue'
+import GoalsCreate from './views/GoalsCreate.vue'
 import SubGoalsIndex from './views/SubGoalsIndex.vue'
 import SubGoalsShow from './views/SubGoalsShow.vue'
-
-
-
-
-
+import SubGoalsCreate from './views/SubGoalsCreate.vue'
 
 Vue.use(Router)
 
@@ -60,6 +57,11 @@ export default new Router({
       name: 'goalsShow',
       component: GoalsShow
     },
+    {
+      path: '/goals-create',
+      name: 'goalsCreate',
+      component: GoalsCreate
+    },
     // subgoals
     {
       path: '/subgoals',
@@ -70,6 +72,11 @@ export default new Router({
       path: '/subgoals/:id',
       name: 'subgoalsShow',
       component: SubGoalsShow
+    },
+    {
+      path: '/subgoals-create',
+      name: 'SubGoalsCreate',
+      component: SubGoalsCreate
     },
      {
       path: '/journals/create',

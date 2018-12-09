@@ -11,8 +11,8 @@
           <p class="card-text">due_date: {{ goal.due_date }}</p>
           <p class="card-text">status: {{ goal.status }}</p>
           <p class="card-text">journal id: {{ goal.journal_id }}</p>
-<!--     <a v-bind:href="'/#/goals/' + goal.id" class="btn btn-primary">See my goals</a>
- -->    </div>
+          <a v-bind:href="'/#/subgoals'" class="btn btn-primary">See subgoals</a>
+        </div>
       </div>  
     </div>
   </div>
@@ -29,7 +29,8 @@ export default {
   data: function() {
     return {
       message: "this is a goal",
-      goal: []
+      goal: [],
+      // sub_goal: []
     };
   },
   created: function() {
