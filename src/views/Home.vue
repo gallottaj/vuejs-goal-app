@@ -2,38 +2,66 @@
     <div class="home">
      <!-- CONTENT --------------------------------------------------------------------------------->
 
+        <!-- Process -->
+        <section id="process" class="ptb ptb-sm-80">
+            <div class="wow fadeInLeft container text-center">
+                <h3>Easy Process</h3>
+                <div class="spacer-60"></div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-4 col-6">
+                        <div class="tipped" data-title="Step 1 - Journal" data-tipper-options='{"direction":"top"}'>
+                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
+                          <a v-bind:href="'/#/journals-create'" class="btn btn-primary">Create a journal</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6">
+                        <div class="tipped" data-title="Step 2 - Set Goals" data-tipper-options='{"direction":"top"}'>
+                            <div class="page-icon-top"><i class="ion ion-ios-paper-outline"></i></div>
+                          <a v-bind:href="'/#/goals-create'" class="btn btn-primary">Create a goal</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6">
+                        <div class="tipped" data-title="Step 3 - Set Sub-Goals" data-tipper-options='{"direction":"top"}'>
+                            <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
+                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Set Sub-Goals</a>
+                        </div>
+                    </div>
+                      <div class="col-md-2 col-sm-4 col-6">
+                        <div class="tipped" data-title="Step 4 - Reflect " data-tipper-options='{"direction":"top"}'>
+                            <div class="page-icon-top"><i class="ion ion-ios-people-outline"></i></div>
+                            <h6>Reflect</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-6">
+                        <div class="tipped" data-title="Step6 - Delivery" data-tipper-options='{"direction":"top"}'>
+                            <div class="page-icon-top"><i class="ion ion-ios-clock-outline"></i></div>
+                            <h6>Delivery</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Process -->
+
         <!-- Work Section -->
         <section id="work" class="wow fadeIn pt pt-sm-80 text-center">
             <div class="container">
-                <h3>Great Work</h3>
+                <h3>Journals</h3>
                 <div class="spacer-30"></div>
-                <!-- work Filter -->
-                <div class="row">
-                    <ul class="col container-filter categories-filter">
-                        <li><a class="categories active" data-filter="*">All</a></li>
-                        <li><a class="categories" data-filter=".branding">Branding</a></li>
-                        <li><a class="categories" data-filter=".design">Design</a></li>
-                        <li><a class="categories" data-filter=".photo">Photo</a></li>
-                        <li><a class="categories" data-filter=".coffee">coffee</a></li>
-                    </ul>
-                </div>
-                <!-- End work Filter -->
-            </div>
-
+              </div>
 
             <!-- Work Gallary -->
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col container-grid nf-col-4">
-
                         <div class="nf-item branding design coffee">
                             <div class="item-box">
-                                <a class="cbox-gallary1" href="img/portfolio/1.jpg" title="Consequat massa quis">
+                                <a class="btn btn-primar" href="/#/goals/2" title="Journal">
                                   <img class="item-container" src="img/portfolio/1.jpg" alt="1" />
                                     <div class="item-mask">
                                         <div class="item-caption">
-                                            <h5 class="white">Consequat massa quis</h5>
-                                            <p class="white">Branding, Design, Coffee</p>
+                                            <h5 class="white">Journal Title</h5>
+                                            <p class="white">Goal Title</p>
                                         </div>
                                     </div>
                                 </a>
@@ -144,47 +172,6 @@
             <!-- End Work Gallary -->
         </section>
         <!-- End Work Section -->
-
-        <!-- Process -->
-        <section id="process" class="ptb ptb-sm-80">
-            <div class="wow fadeInLeft container text-center">
-                <h3>Easy Process</h3>
-                <div class="spacer-60"></div>
-                <div class="row">
-                    <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step 1 - Journal" data-tipper-options='{"direction":"top"}'>
-                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
-                          <a v-bind:href="'/#/journals-create'" class="btn btn-primary">Create a journal</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step 2 - Set Goals" data-tipper-options='{"direction":"top"}'>
-                            <div class="page-icon-top"><i class="ion ion-ios-paper-outline"></i></div>
-                          <a v-bind:href="'/#/goals-create'" class="btn btn-primary">Create a goal</a>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step 3 - Set Sub-Goals" data-tipper-options='{"direction":"top"}'>
-                            <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
-                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Set Sub-Goals</a>
-                        </div>
-                    </div>
-                      <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step 4 - Reflect " data-tipper-options='{"direction":"top"}'>
-                            <div class="page-icon-top"><i class="ion ion-ios-people-outline"></i></div>
-                            <h6>Reflect</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step6 - Delivery" data-tipper-options='{"direction":"top"}'>
-                            <div class="page-icon-top"><i class="ion ion-ios-clock-outline"></i></div>
-                            <h6>Delivery</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Process -->
 
         <!--About Section-->
         <section id="about" class="wow fadeIn ptb ptb-sm-80">

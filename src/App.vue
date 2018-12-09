@@ -18,53 +18,7 @@
                         <div class="nav-menu ml-auto">
                             <ul class="">
                                 <li class="nav-menu-item">
-                                    <a href="#">Home</a>
-                                    <div class="nav-dropdown col2-dropdown">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <ul>
-                                                    <li><span class="dropdown-title">Multi Page</span></li>
-                                                    <li><a href="home.html">Default</a></li>
-                                                    <li><a href="home-video.html">Intro Video</a></li>
-                                                    <li><a href="home-youtube.html">Intro Youtube</a></li>
-                                                    <li><a href="home-static.html">Intro Static</a></li>
-                                                    <li><a href="home-agency-grid.html">Agency Grid</a></li>
-                                                    <li><a href="home-agency-masonry.html">Agency Masonry</a></li>
-                                                    <li><a href="home-fullwidth-slider.html">Fullwidth Slider</a></li>
-                                                    <li><a href="home-text-rotator1.html">Text Rotator1</a></li>
-                                                    <li><a href="home-text-rotator2.html">Text Rotator2</a></li>
-                                                    <li><a href="home-personal.html">Personal</a></li>
-                                                    <li><a href="home-fullscreen.html">Full Screen</a></li>
-                                                    <li><a href="home-canvas-pattern.html">Canvas Pattern</a></li>
-                                                    <li><a href="home-section-scroll.html">Page Section Scroll</a></li>
-                                                    <li><a href="shop-2col.html">Shop</a></li>
-                                                    <li><a href="home-revolution-slider1.html">Revolution Slider 1</a></li>
-                                                    <li><a href="home-revolution-slider2.html">Revolution Slider 2</a></li>
-                                                    <li><a href="home-coming-soon.html">Comming Soon</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <ul>
-                                                    <li><span class="dropdown-title">One Page</span></li>
-                                                    <li><a href="onepage.html">Default</a></li>
-                                                    <li><a href="onepage-personal.html">Personal</a></li>
-                                                    <li><a href="onepage-video.html">Video</a></li>
-                                                    <li><a href="onepage-youtube.html">Youtube</a></li>
-                                                    <li><a href="onepage-static.html">Static</a></li>
-                                                    <li><a href="onepage-fullwidth-slider.html">Fullwidth</a></li>
-                                                    <li><a href="onepage-text-rotator1.html">Text Rotator1</a></li>
-                                                    <li><a href="onepage-text-rotator2.html">Text Rotator2</a></li>
-                                                    <li><a href="onepage-canvas-pattern.html">Canvas Pattern</a></li>
-                                                    <li><a href="onepage-revolution-slider1.html">Revolution Slider 1</a></li>
-                                                    <li><a href="onepage-revolution-slider2.html">Revolution Slider 2</a></li>
-                                                </ul>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nav-menu-item">
-                                    <a href="#">Home</a>
+                                  <a href="#">Home</a>
                                     <div class="nav-dropdown">
                                         <ul>
                                             <li class="nav-menu-item">
