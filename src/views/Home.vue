@@ -132,10 +132,39 @@
         </section>
         <!-- End Work Section -->
 
-                <!-- Process -->
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+
+        <!-- Counter Section -->
+        <section id="counter" class="overlay-dark80 light-color ptb-80" style="background-image: url('img/full/23.jpg');" data-stellar-background-ratio="0.5">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-3 mb-sm-30">
+                        <h1 class="counter" data-count="59">0</h1>
+                        <h6>journals</h6>
+                    </div>
+                    <div class="col-md-3 mb-sm-30">
+                        <h1 class="counter" data-count="59">0</h1>
+                        <h6>goals</h6>
+                    </div>
+                    <div class="col-md-3 mb-sm-30">
+                        <h1 class="counter" data-count="34">0</h1>
+                        <h6>reflections</h6>
+                    </div>
+                    <div class="col-md-3 mb-sm-30">
+                        <h1 class="counter" data-count="154">0</h1>
+                        <h6>habits</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Counter Section -->
+
+        <!-- Process -->
         <section id="process" class="ptb ptb-sm-80">
             <div class="wow fadeInLeft container text-center">
-                <h3>Easy Process</h3>
                 <div class="spacer-60"></div>
                 <div class="row">
                     <div class="col-md-2 col-sm-4 col-6">
@@ -228,31 +257,6 @@
         <!-- End About Section-->
 
         <hr />
-
-        <!-- Counter Section -->
-        <section id="counter" class="overlay-dark80 light-color ptb-80" style="background-image: url('img/full/23.jpg');" data-stellar-background-ratio="0.5">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-3 mb-sm-30">
-                        <h1 class="counter" data-count="59">0</h1>
-                        <h6>journals</h6>
-                    </div>
-                    <div class="col-md-3 mb-sm-30">
-                        <h1 class="counter" data-count="59">0</h1>
-                        <h6>goals</h6>
-                    </div>
-                    <div class="col-md-3 mb-sm-30">
-                        <h1 class="counter" data-count="34">0</h1>
-                        <h6>reflections</h6>
-                    </div>
-                    <div class="col-md-3 mb-sm-30">
-                        <h1 class="counter" data-count="154">0</h1>
-                        <h6>habits</h6>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Counter Section -->
 
         <hr />
 

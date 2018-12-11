@@ -2,7 +2,7 @@
   <div class="create journal">
         <!-- CONTENT --------------------------------------------------------------------------------->
         <!-- Intro Section -->
-        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="img/full/02.jpg">
+        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="https://images.unsplash.com/photo-1529307482987-d09357b12fb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
             <div class="container">
                 <div class="row title">
                     <h2 class="h2">Journal Entry</h2>
