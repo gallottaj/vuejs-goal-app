@@ -2,7 +2,7 @@
   <div class="create a goal">
         <!-- CONTENT --------------------------------------------------------------------------------->
         <!-- Intro Section -->
-        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="https://images.unsplash.com/photo-1497465135434-9dc15238075a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1562&q=80">
+        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="https://images.unsplash.com/photo-1504722754074-60e9f87d2817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
             <div class="container">
                 <div class="row title">
                     <h2 class="h2">Set a goal</h2>
