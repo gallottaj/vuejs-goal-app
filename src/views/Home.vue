@@ -72,7 +72,7 @@
                         <div class="nf-item branding design">
                             <div class="item-box">
                                 <a class="cbox-gallary1" href="img/portfolio/5.jpg" title="Nullam quis ant">
-                                    <img class="item-container" src="https://images.unsplash.com/photo-1543816228-531a15980981?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1321&q=80" alt="5" />
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1489533119213-66a5cd877091?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="5" />
                                     <div class="item-mask">
                                         <div class="item-caption">
                                             <h5 class="white">Journal 5</h5>
@@ -86,7 +86,7 @@
                         <div class="nf-item photo">
                             <div class="item-box">
                                 <a class="cbox-gallary1" href="img/portfolio/6.jpg" title="Sed fringilla mauris">
-                                    <img class="item-container" src="https://images.unsplash.com/photo-1466071624063-c556307cb4d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80" alt="6" />
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1544297787-43ce4f544585?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="6" />
                                     <div class="item-mask">
                                         <div class="item-caption">
                                             <h5 class="white">Journal 6</h5>
@@ -100,7 +100,7 @@
                         <div class="nf-item design">
                             <div class="item-box">
                                 <a class="cbox-gallary1" href="img/portfolio/7.jpg" title="Augue velit cursus">
-                                    <img class="item-container" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" alt="7" />
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1507652955-f3dcef5a3be5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="7" />
                                     <div class="item-mask">
                                         <div class="item-caption">
                                             <h5 class="white">Journal 7</h5>
@@ -114,7 +114,7 @@
                         <div class="nf-item coffee">
                             <div class="item-box">
                                 <a class="cbox-gallary1" href="img/portfolio/8.jpg" title="Donec sodales sagittis">
-                                    <img class="item-container" src="https://images.unsplash.com/photo-1459128806329-1b61d19a0f93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="8" />
+                                    <img class="item-container" src="https://images.unsplash.com/photo-1544297787-43ce4f544585?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="8" />
                                     <div class="item-mask">
                                         <div class="item-caption">
                                             <h5 class="white">Journal 8</h5>
