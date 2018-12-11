@@ -1,0 +1,27 @@
+<template>
+  <div class="create journal">
+    <div class="container">
+      <form v-on:submit.prevent="submit()">
+        <h1>Create a journal </h1>
+        <div class="form-group">
+          <label>entry_type:</label>
+          <input type="text" class="form-control" v-model="entry_type">
+        </div>
+        <div class="form-group">
+          <label>entry_body:</label>
+          <input type="text" class="form-control" v-model="entry_body">
+        </div>
+        <div class="form-group">
+          <label>entry_title:</label>
+          <input type="text" class="form-control" v-model="entry_title">
+        </div>     
+        <div class="form-group">
+          <label>user_id:</label>
+          <input type="text" class="form-control" v-model="user_id">
+        </div>
+        <input type="submit" class="btn btn-primary" value="Submit">
+      </form>
+    </div>
+    <a v-bind:href="'/#/goals-create'" class="btn btn-primary">Create a new goal</a>
+  </div>
+</template>
