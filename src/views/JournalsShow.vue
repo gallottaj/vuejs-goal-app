@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="journal">
     <div class="col-sm-4">
       <div class="card">
         <div class="card-body">

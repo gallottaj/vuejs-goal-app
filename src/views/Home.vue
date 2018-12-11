@@ -5,7 +5,7 @@
         <!-- Work Section -->
         <section id="work" class="wow fadeIn pt pt-sm-80 text-center">
             <div class="container">
-                <h3>Journals</h3>
+                <h3> My Journals</h3>
                 <div class="spacer-30"></div>
               </div>
 
@@ -147,13 +147,13 @@
                     <div class="col-md-2 col-sm-4 col-6">
                         <div class="tipped" data-title="Step 2 - Set Goals" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-paper-outline"></i></div>
-                          <a v-bind:href="'/#/goals-create'" class="btn btn-primary">Create a goal</a>
+                          <a v-bind:href="'/#/goals-create'" class="btn btn-primary">Set a goal</a>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-4 col-6">
                         <div class="tipped" data-title="Step 3 - Set Sub-Goals" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
-                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Set Sub-Goals</a>
+                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Mark Sub-Goals</a>
                         </div>
                     </div>
                       <div class="col-md-2 col-sm-4 col-6">
@@ -165,7 +165,7 @@
                     <div class="col-md-2 col-sm-4 col-6">
                         <div class="tipped" data-title="Step6 - Delivery" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-clock-outline"></i></div>
-                            <h6>Delivery</h6>
+                            <h6>Deliver</h6>
                         </div>
                     </div>
                 </div>
