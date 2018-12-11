@@ -15,7 +15,7 @@
                     <div class="col container-grid nf-col-4">
                         <div class="nf-item branding design coffee">
                             <div class="item-box">
-                                <a class="btn btn-primar" href="/#/goals/2" title="Journal">
+                                <a class="btn btn-primar" href="/#/goals/3" title="Journal">
                                   <img class="item-container" src="https://images.unsplash.com/photo-1543931331-27f622134f7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="1" />
                                     <div class="item-mask">
                                         <div class="item-caption">
@@ -204,19 +204,19 @@
                         </div>
 
                         <div class="skillbar" data-percent="80%">
-                            <div class="skillbar-title">development</div>
+                            <div class="skillbar-title">goal 2</div>
                             <div class="skill-bar-percent">80%</div>
                             <div class="skillbar-bar"></div>
                         </div>
 
                         <div class="skillbar" data-percent="40%">
-                            <div class="skillbar-title">Photography</div>
+                            <div class="skillbar-title">goal 3</div>
                             <div class="skill-bar-percent">40%</div>
                             <div class="skillbar-bar"></div>
                         </div>
 
                         <div class="skillbar" data-percent="70%">
-                            <div class="skillbar-title">branding</div>
+                            <div class="skillbar-title">goal 4</div>
                             <div class="skill-bar-percent">70%</div>
                             <div class="skillbar-bar"></div>
                         </div>
@@ -235,19 +235,19 @@
                 <div class="row">
                     <div class="col-md-3 mb-sm-30">
                         <h1 class="counter" data-count="59">0</h1>
-                        <h6>awards</h6>
+                        <h6>journals</h6>
                     </div>
                     <div class="col-md-3 mb-sm-30">
-                        <h1 class="counter" data-count="1054">0</h1>
-                        <h6>Clients</h6>
+                        <h1 class="counter" data-count="59">0</h1>
+                        <h6>goals</h6>
                     </div>
                     <div class="col-md-3 mb-sm-30">
                         <h1 class="counter" data-count="34">0</h1>
-                        <h6>Team</h6>
+                        <h6>reflections</h6>
                     </div>
                     <div class="col-md-3 mb-sm-30">
                         <h1 class="counter" data-count="154">0</h1>
-                        <h6>Project</h6>
+                        <h6>habits</h6>
                     </div>
                 </div>
             </div>
