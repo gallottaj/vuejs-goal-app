@@ -1,22 +1,48 @@
 <template>
   <div class="home">
-    <h1>{{ message }}</h1>
-  <a v-bind:href="'/#/journals/create'" class="btn btn-primary">create a journal</a>
-  <div class="container">
-      <div class="row">
-        <div class="col-sm-4" v-for="reflection in reflections">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">reflection_type: {{ reflection.reflection_type }}</h5>
-              <h5 class="card-title">reflection_title: {{ reflection.reflection_title }}</h5>
-              <h5 class="card-title">reflection_entry_date: {{ reflection.reflection_entry_date }}</h5>
-              <h5 class="card-title">reflection_body: {{ reflection.reflection_body }}</h5>
-<!--               <a v-bind:href="'/#/journals/' + reflection.id" class="btn btn-primary">View this Journal</a>
- -->            </div>
-          </div>
-        </div>
-      </div>
-    </div>    
+        <!-- Intro Section -->
+        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="img/full/02.jpg">
+            <div class="container">
+                <div class="row title">
+                    <h2 class="h2">Reflections</h2>
+                    <div class="page-breadcrumb">
+                        <a>Home</a>/<span>Tab & Accordian</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Intro Section -->
+
+        <!-- Tab Section Section -->
+        <section class="ptb ptb-sm-80">
+            <div class="container">
+                <div class="row text-center">
+                    <h3 class="col-12">Reflections</h3>
+                </div>
+                <div class="spacer-60"></div>
+                <div class="row">
+                    <!-- Tab Style1 -->
+                    <div class="col-md-8 offset-md-2">
+                        <div class="tabs">
+                            <ul>
+                                <li><a href="#tabs-1">Type</a></li>
+                                <li><a href="#tabs-2">Content</a></li>
+                            </ul>
+                            <div class="ui-tab-content">
+                                <div id="tabs-1">
+                                    <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
+                                    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+                                </div>
+                                <div id="tabs-2">
+                                    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
+                                    <p>Tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+          </section> 
   </div>
 </template>
 

@@ -25,7 +25,7 @@
                             </p>
 
                             <p>
-                                <strong class="dark-color">Due Date :</strong>{{goal.due_date}}
+                                <strong class="dark-color">Due Date :</strong> {{goal.due_date}}
                             </p>
                             <div class="skillbar" data-percent="80%">
                             <div class="skillbar-title">Completion:</div>
@@ -98,9 +98,8 @@
 
         <section class="ptb ptb-sm-80">
             <div class="container text-center">
-                <h4>Reflections</h4>
+                <a href='/#/reflections'>Reflections</a>
                 <div class="row">
-
                     <div class="col-lg-4 spacing-grid">
                         <div class="item-box">
                             <a>
