@@ -4,7 +4,6 @@ import Home from './views/Home.vue'
 import Signup from './views/Signup.vue'
 import Login from './views/Login.vue'
 import Logout from "./views/Logout.vue";
-import GoalsIndex from './views/GoalsIndex.vue'
 import UserShow from './views/UserShow.vue'
 import JournalsCreate from './views/JournalsCreate.vue'
 import JournalsIndex from './views/JournalsIndex.vue'
@@ -15,6 +14,8 @@ import GoalsUpdate from './views/GoalsUpdate.vue'
 import SubGoalsIndex from './views/SubGoalsIndex.vue'
 import SubGoalsShow from './views/SubGoalsShow.vue'
 import SubGoalsCreate from './views/SubGoalsCreate.vue'
+import ReflectionsIndex from './views/ReflectionsIndex.vue'
+
 
 Vue.use(Router)
 
@@ -48,11 +49,6 @@ export default new Router({
       component: Logout
     },
     // goals 
-     {
-      path: '/goals',
-      name: 'goalsIndex',
-      component: GoalsIndex
-    },
     {
       path: '/goals/:id',
       name: 'goalsShow',
@@ -98,6 +94,11 @@ export default new Router({
       path: '/journals/:id',
       name: 'journalsShow',
       component: JournalsShow
+    },
+      {
+      path: '/reflections',
+      name: 'reflectionsIndex',
+      component: ReflectionsIndex
     },
       {
       path: '/about',
