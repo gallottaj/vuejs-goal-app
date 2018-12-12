@@ -4,15 +4,15 @@
   <a v-bind:href="'/#/journals/create'" class="btn btn-primary">create a journal</a>
   <div class="container">
       <div class="row">
-        <div class="col-sm-4" v-for="journal in journals">
+        <div class="col-sm-4" v-for="reflection in reflections">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Title: {{ journal.entry_title }}</h5>
-              <h5 class="card-title">id: {{ journal.id }}</h5>
-              <h5 class="card-title">Type: {{ journal.entry_type }}</h5>
-              <h5 class="card-title">Body: {{ journal.entry_body }}</h5>
-              <a v-bind:href="'/#/journals/' + journal.id" class="btn btn-primary">View this Journal</a>
-            </div>
+              <h5 class="card-title">reflection_type: {{ reflection.reflection_type }}</h5>
+              <h5 class="card-title">reflection_title: {{ reflection.reflection_title }}</h5>
+              <h5 class="card-title">reflection_entry_date: {{ reflection.reflection_entry_date }}</h5>
+              <h5 class="card-title">reflection_body: {{ reflection.reflection_body }}</h5>
+<!--               <a v-bind:href="'/#/journals/' + reflection.id" class="btn btn-primary">View this Journal</a>
+ -->            </div>
           </div>
         </div>
       </div>
