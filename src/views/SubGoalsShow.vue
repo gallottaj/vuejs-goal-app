@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="post-meta"><span>March 16, 2015</span></div>
                                     <div class="post-header">
-                                        <h4><a href="blog-single-slider-post.html">Maecenas nec odio ante varcy tincidunt</a></h4>
+                                        <h4><a>{{sub_goal.sub_goal_name}}</a></h4>
                                     </div>
                                     <div class="post-entry">
                                         <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
@@ -38,40 +38,8 @@
                                     </div>
                                     <div class="post-more-link pull-right"><a href="blog-single-slider-post.html">Mark Complete<i class="fa fa-long-arrow-right right"></i></a></div>
                                 </div>
-
                                 <hr />
-
-                                <div class="blog-post mb-30">
-                                    <div class="post-meta"><span>by <a>John Doe</a>,</span> <span>March 16, 2015</span></div>
-                                    <div class="post-header">
-                                        <h4><a href="blog-single-image-post.html">Maecenas nec odio ante varcy tincidunt</a></h4>
-                                    </div>
-                                    <div class="post-entry">
-                                        <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                                    </div>
-                                    <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div>
-                                    <div class="post-more-link pull-right"><a href="blog-single-image-post.html">Read More<i class="fa fa-long-arrow-right right"></i></a></div>
-                                </div>
-
-                                <hr />
-
-                                <div class="blog-post mb-30">
-                                    <div class="post-media">
-                                    </div>
-                                    <div class="post-meta"><span>by <a>John Doe</a>,</span> <span>March 16, 2015</span></div>
-                                    <div class="post-header">
-                                        <h4><a href="blog-single-audio-post.html">Maecenas nec odio ante varcy tincidunt</a></h4>
-                                    </div>
-                                    <div class="post-entry">
-                                        <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                                    </div>
-                                    <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div>
-                                    <div class="post-more-link pull-right"><a href="blog-single-audio-post.html">Read More<i class="fa fa-long-arrow-right right"></i></a></div>
-                                </div>
-
-                                <hr />
-
-                          </div>
+                            </div>
                         </div>
 
                         <!-- Pagination Nav -->

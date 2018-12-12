@@ -11,6 +11,7 @@ import JournalsIndex from './views/JournalsIndex.vue'
 import JournalsShow from './views/JournalsShow.vue'
 import GoalsShow from './views/GoalsShow.vue'
 import GoalsCreate from './views/GoalsCreate.vue'
+import GoalsUpdate from './views/GoalsUpdate.vue'
 import SubGoalsIndex from './views/SubGoalsIndex.vue'
 import SubGoalsShow from './views/SubGoalsShow.vue'
 import SubGoalsCreate from './views/SubGoalsCreate.vue'
@@ -61,6 +62,11 @@ export default new Router({
       path: '/goals-create',
       name: 'goalsCreate',
       component: GoalsCreate
+    },
+    {
+      path: '/goals-update',
+      name: 'goalsUpdate',
+      component: GoalsUpdate
     },
     // subgoals
     {

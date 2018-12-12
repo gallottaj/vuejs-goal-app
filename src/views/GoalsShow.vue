@@ -7,7 +7,7 @@
                 <div class="row title">
                     <h2 class="h2">Journal 1</h2>
                     <div class="page-breadcrumb">
-                        <a>Home</a>/<a>Sub-Goals</a>/<span>Reflections</span>
+                        <a>View</a>/<a>Update</a>/<a>Delete</a>
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                             <div class="skillbar-title">Completion:</div>
                             <div class="skill-bar-percent">80%</div>
                             <div class="skillbar-bar"></div>
-                        </div>
+                            </div>
                         </div>
                     </div>
 
@@ -89,29 +89,8 @@
                         <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
                         </p>
                     </div>
-                    <div class="col-md-4 col-sm-6 mb-45">
-                        <h5>SubGoal 4</h5>
-                        <p>Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-                        <p>
-                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-45">
-                        <h5>SubGoal 5</h5>
-                        <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
-                        <p>
-                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-6 mb-45">
-                        <h5>SubGoal 6</h5>
-                        <p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales.</p>
-                        <p>
-                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+                </div> 
+             </div>
         </section>
         <!-- End Subgoals -->
 
@@ -192,7 +171,7 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </section>                            
         <!-- End Work Next Prev Bar -->
       </div>
 </template>
