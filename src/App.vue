@@ -8,7 +8,7 @@
                     <div class="row d-flex flex-md-row align-items-center">
                         <div class="logo mr-auto">
                             <!--logo-->
-                            <a href="index.html">
+                            <a href="/#/">
                                 <img class="logo-dark" src="img/logo-black.png" alt="Mazel" />
                                 <img class="logo-light" src="img/logo-white.png" alt="Mazel" />
                             </a>
@@ -18,7 +18,7 @@
                         <div class="nav-menu ml-auto">
                             <ul class="">
                                 <li class="nav-menu-item">
-                                  <a href="#">Home</a>
+                                  <a href="/#/">Home</a>
                                     <div class="nav-dropdown">
                                         <ul>
                                             <li class="nav-menu-item">
@@ -32,7 +32,7 @@
                                     </div>
                                 </li> 
                                 <li class="nav-menu-item mega-menu">
-                                    <a href="#">Portfolio</a>
+                                    <a href="#">Journals</a>
                                     <div class="nav-dropdown mega-dropdown">
                                         <div class="container">
                                             <div class="row">
@@ -40,7 +40,7 @@
                                                     <ul>
                                                         <li><span class="dropdown-title">Grid</span></li>
                                                         <li><a href="portfolio-grid-2col.html">2 Columns</a></li>
-                                                        <li><a href="portfolio-grid-2col-no_spacing.html">2 Columns no-Spacing</a></li>
+                                                        <li><a href="/#/">View All</a></li>
                                                         <li><a href="portfolio-grid-3col.html">3 Columns</a></li>
                                                         <li><a href="portfolio-grid-3col-no_spacing.html">3 Columns no-Spacing</a></li>
                                                         <li><a href="portfolio-grid-4col.html">4 Columns</a></li>
@@ -95,7 +95,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-menu-item">
-                                    <a href="#">Blog</a>
+                                    <a href="#">Goals</a>
                                     <div class="nav-dropdown col3-dropdown center">
                                         <div class="row">
                                             <div class="col-lg-4">
@@ -135,7 +135,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-menu-item">
-                                    <a href="#">Elements</a>
+                                    <a href="#">Habits</a>
                                     <div class="nav-dropdown">
                                         <ul>
                                             <li><a href="element-components.html">Components</a></li>
@@ -149,7 +149,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-menu-item">
-                                    <a href="#">Shop</a>
+                                    <a href="#">Reflections</a>
                                     <div class="nav-dropdown col2-dropdown left">
                                         <div class="row">
                                             <div class="col-lg-6">

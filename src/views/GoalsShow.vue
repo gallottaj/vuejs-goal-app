@@ -62,7 +62,7 @@
 
         <hr />
 
-                <!-- Service Section -->
+                <!-- Subgoals -->
         <section id="service" class="ptb ptb-sm-80">
             <div class="wow fadeInLeft container text-center">
                 <h3>SubGoals</h3>
@@ -71,31 +71,49 @@
                     <div class="col-md-4 col-sm-6 mb-45">
                         <h5>SubGoal 1</h5>
                         <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem.</p>
+                        <p>
+                        <a href='/#/subgoals/2' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
+                        </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
                         <h5>SubGoal 2</h5>
                         <p>Donec sodales sagittis magna. hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus, augue velit cursus nunc.</p>
+                        <p>
+                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
+                        </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
                         <h5>SubGoal 3</h5>
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                        <p>
+                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
+                        </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
                         <h5>SubGoal 4</h5>
                         <p>Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p>
+                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
+                        </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
                         <h5>SubGoal 5</h5>
                         <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
+                        <p>
+                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
+                        </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
                         <h5>SubGoal 6</h5>
                         <p>Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales.</p>
+                        <p>
+                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Service Section -->
+        <!-- End Subgoals -->
 
         <hr />
 
