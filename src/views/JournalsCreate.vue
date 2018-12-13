@@ -5,7 +5,7 @@
         <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="https://images.unsplash.com/photo-1543964496-d83d90140d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
             <div class="container">
                 <div class="row title">
-                    <h2 class="h2">This is a new journal</h2>
+                    <h2 class="h2">Create A New Journal</h2>
                     <div class="page-breadcrumb">
                         <a>Home</a>/<span>Journal</span>
                     </div>
@@ -20,8 +20,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3 text-center">
-                        <h3>Create New Entry</h3>
-                        <p class="lead">Nullam dictum felis eu pede mollis pretium leo eget bibendum sodales augue velit cursus. tellus eget condimentum rhoncus sem quam semper libero.</p>
+                        <h3>Create A New Entry</h3>
                     </div>
                 </div>
                 <div class="spacer-75"></div>
@@ -42,10 +41,10 @@
                             <!-- END MAIL SENDING UNSUCCESSFULL -->
 
                             <div class="form-field-wrapper">
-                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="journal title" required v-model="entry_type">
+                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="title" required v-model="entry_type">
                             </div>
                             <div class="form-field-wrapper">
-                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="your user id" required v-model="user_id">
+                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="user id" required v-model="user_id">
                             </div>
 
                             <div class="form-field-wrapper">

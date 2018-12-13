@@ -5,9 +5,25 @@
         <!-- Work Section -->
         <section id="work" class="wow fadeIn pt pt-sm-80 text-center">
             <div class="container">
-                <h3> My Journals</h3>
+                <img src="img/Original on Transparent.png" alt="logo" width= "350" height="450"/>
                 <div class="spacer-30"></div>
               </div>
+
+                       <!-- Quote Section -->
+        <section class="ptb ptb-sm-20">
+            <div class="container">
+                <div class="spacer-20"></div>
+                <div class="row">
+                    <!-- <div class="col-md-6 offset-md-3 mb-30">
+                        <blockquote>We're not leaving here without Buster, man. Leave no crash-test dummy behind, We're not leaving here without Buster, man. Leave no crash-test dummy behind nihil impedit quo minus id quod maxime placeat facere!</blockquote>
+                    </div> -->
+                    <div class="blog-post col-md-6 offset-md-3 mb-30">
+                        <blockquote>shoot for the stars. To set one's goals or ambitions very high; to try to attain or achieve something particularly difficult.</blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Quote Section -->
 
             <!-- Work Gallary -->
             <div class="container-fluid ">

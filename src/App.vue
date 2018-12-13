@@ -9,8 +9,7 @@
                         <div class="logo mr-auto">
                             <!--logo-->
                             <a href="/#/">
-                                <img class="logo-dark" src="img/logo-black.png" alt="Mazel" />
-                                <img class="logo-light" src="img/logo-white.png" alt="Mazel" />
+                            <img src="img/Original on Transparent.png" alt="logo"/>
                             </a>
                             <!--End logo-->
                         </div>
