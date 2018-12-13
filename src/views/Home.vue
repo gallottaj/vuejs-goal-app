@@ -12,7 +12,6 @@
                        <!-- Quote Section -->
         <section class="ptb ptb-sm-20">
             <div class="container">
-                <div class="spacer-20"></div>
                 <div class="row">
                     <!-- <div class="col-md-6 offset-md-3 mb-30">
                         <blockquote>We're not leaving here without Buster, man. Leave no crash-test dummy behind, We're not leaving here without Buster, man. Leave no crash-test dummy behind nihil impedit quo minus id quod maxime placeat facere!</blockquote>
@@ -198,7 +197,7 @@
                     <div class="col-md-2 col-sm-4 col-6">
                         <div class="tipped" data-title="Step 3 - Set Sub-Goals" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
-                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Mark Sub-Goals</a>
+                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Set Sub-Goals</a>
                         </div>
                     </div>
                       <div class="col-md-2 col-sm-4 col-6">
@@ -218,16 +217,16 @@
         </section>
         <!-- End Process -->
 
-        <!--About Section-->
+       <!--About Section-->
         <section id="about" class="wow fadeIn ptb ptb-sm-80">
             <div class="container">
                 <div class="row text-center">
                     <div class="col-md-8 offset-md-2">
                         <h3 class="h4">About Studio</h3>
-                        <div class="spacer-15"></div>
                         <p class="lead">Integer tincidunt Cras dapibus. <a class="tipped" data-title="Sample Text" data-tipper-options='{"direction":"top"}'><b>Vivamus elementum</b></a> ultricies nisi vel augue. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante dapibus.</p>
                     </div>
                 </div>
+
                 <div class="row mt-80">
                     <!-- Welcome Content -->
                     <div class="col-md-7 mb-30">
