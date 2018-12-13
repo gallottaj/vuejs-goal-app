@@ -20,8 +20,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3 text-center">
-                        <h3>Set A Goal</h3>
-                        <p class="lead">Nullam dictum felis eu pede mollis pretium leo eget bibendum sodales augue velit cursus. tellus eget condimentum rhoncus sem quam semper libero.</p>
+                        <h3>Let's Set A Goal</h3>
                     </div>
                 </div>
                 <div class="spacer-75"></div>

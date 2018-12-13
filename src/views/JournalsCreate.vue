@@ -97,7 +97,7 @@ export default {
         axios
           .post('http://localhost:3000/api/journals', params)
           .then(response => {
-            this.$router.push("/home");
+            this.$router.push("/goals-create");
           // })
           // .catch(error => {
           //   this.errors = error.response.data.errors;

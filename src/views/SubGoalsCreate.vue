@@ -20,8 +20,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3 text-center">
-                        <h3>Lets add a habit</h3>
-                        <p class="lead">Nullam dictum felis eu pede mollis pretium leo eget bibendum sodales augue velit cursus. tellus eget condimentum rhoncus sem quam semper libero.</p>
+                        <h3>Let's add a habit</h3>
                     </div>
                 </div>
                 <div class="spacer-75"></div>
@@ -46,7 +45,7 @@
                             </div>
 
                             <div class="form-field-wrapper">
-                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="what is the habit?" required v-model="goal_name">
+                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="what is the habit?" required v-model="sub_goal_name">
                             </div>
                             <div class="form-field-wrapper">
                                 <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="when is it due?" required v-model="sub_goal_due_date">
@@ -102,7 +101,7 @@ export default {
         axios
           .post('http://localhost:3000/api/sub_goals/', params)
           .then(response => {
-            this.$router.push("/subgoals-create");
+            this.$router.push("/");
           })
           .catch(error => {
             this.errors = error.response.data.errors;
