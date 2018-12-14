@@ -61,21 +61,26 @@
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-6 mb-30">
-
-                                <h5>Week 1</h5>
+                                <h5>Reflection 1</h5>
                                 <p>Exercise 10 minutes nightly for 7 days</p>
+                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5>Week 2</h5>
+                                <h5>Reflection 2</h5>
                                 <p>Exercise 15 minutes nightly for 7 days</p>
+                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
+
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5>Week 3</h5>
+                                <h5>Reflection 3</h5>
                                 <p>Walk outside at lunch for 25 minutes for 7 days</p>
+                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
+
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5>Week 4</h5>
+                                <h5>Reflection 4</h5>
                                 <p>Track progress</p>
+                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
                             </div>
                         </div>
                     </div>
@@ -97,7 +102,7 @@
                         <p>Exercise 10 minutes each night for 7 days</p>
                         <p>
                         <div class="spacer-30"></div>
-                        <a href='/#/subgoals/2' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i> Complete! </a>
+                        <a href='/#/subgoals/2' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i> Mark Complete</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
@@ -105,7 +110,7 @@
                         <p>Exercise 20 minutes each night for 7 days</p>
                         <p>
                         <div class="spacer-30"></div>
-                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Complete! </a>
+                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Mark Complete</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
@@ -113,7 +118,7 @@
                         <p>Record progress.</p>
                         <p>
                         <div class="spacer-30"></div>
-                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Complete!</a>
+                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Mark Complete</a>
                         </p>
                     </div>
                 </div> 
@@ -123,56 +128,6 @@
 
         <hr />
 
-        <section class="ptb ptb-sm-80">
-            <div class="container text-center">
-                <a href='/#/reflections'>Reflections</a>
-                <div class="row">
-                    <div class="col-lg-4 spacing-grid">
-                        <div class="item-box">
-                            <a>
-                                <img alt="1" src="img/portfolio/1.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">Consequat massa quis</h5>
-                                        <p class="white">Branding, Design, Coffee</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 spacing-grid">
-                        <div class="item-box">
-                            <a>
-                                <img alt="1" src="img/portfolio/3.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">Consequat massa quis</h5>
-                                        <p class="white">Branding, Design, Coffee</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 spacing-grid">
-                        <div class="item-box">
-                            <a>
-                                <img alt="1" src="img/portfolio/5.jpg" class="item-container">
-                                <div class="item-mask">
-                                    <div class="item-caption">
-                                        <h5 class="white">Consequat massa quis</h5>
-                                        <p class="white">Branding, Design, Coffee</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- End Work Detail Section -->
 
         <!-- Work Next Prev Bar -->
         <section class="mb-60">
@@ -186,7 +141,7 @@
                     </a>
 
                     <a class="item-all-view">
-                        <h6>All Work</h6>
+                        <h6>More Journals</h6>
                     </a>
 
                     <a class="item-next" href="">
@@ -235,7 +190,17 @@
         /* end counter clock css */
 </style>
 
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.downCount.js" type="text/javascript"></script>
 
+    <script type="text/javascript">
+        $('.countdown').downCount({
+            date: '06/29/2019 12:00:00',
+            offset: +10
+        }, function () {
+            alert('WOOT WOOT, done!');
+        });
+    </script>
 
 <script>
 
