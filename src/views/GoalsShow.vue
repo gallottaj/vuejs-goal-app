@@ -61,7 +61,7 @@
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-6 mb-30">
-                                <a href= '/'><h5>Reflection 1</h5></a>
+                                <a href= '/#/reflections/1'><h5>Reflection 1</h5></a>
                                 <p>Exercise 10 minutes nightly for 7 days</p>
                             <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
                             </div>
