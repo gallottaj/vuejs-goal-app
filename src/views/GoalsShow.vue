@@ -38,20 +38,21 @@
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-6 mb-30">
-                                <h5>Fully responsive</h5>
-                                <p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+
+                                <h5>Week 1</h5>
+                                <p>Exercise 10 minutes nightly for 7 days</p>
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5>Flexible & Customizable</h5>
-                                <p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+                                <h5>Week 2</h5>
+                                <p>Exercise 15 minutes nightly for 7 days</p>
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5>html 5 video & Audio</h5>
-                                <p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+                                <h5>Week 3</h5>
+                                <p>Walk outside at lunch for 25 minutes for 7 days</p>
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5>Clean code & design</h5>
-                                <p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere.</p>
+                                <h5>Week 4</h5>
+                                <p>Track progress</p>
                             </div>
                         </div>
                     </div>
@@ -65,28 +66,31 @@
                 <!-- Subgoals -->
         <section id="service" class="ptb ptb-sm-80">
             <div class="wow fadeInLeft container text-center">
-                <h3>SubGoals</h3>
+                <h3>Habits</h3>
                 <div class="spacer-60"></div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6 mb-45">
-                        <h5>SubGoal 1</h5>
-                        <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem.</p>
+                        <h5>Week 1</h5>
+                        <p>Exercise 10 minutes each night for 7 days</p>
                         <p>
-                        <a href='/#/subgoals/2' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
+                        <div class="spacer-30"></div>
+                        <a href='/#/subgoals/2' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i> Complete! </a>
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
-                        <h5>SubGoal 2</h5>
-                        <p>Donec sodales sagittis magna. hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus, augue velit cursus nunc.</p>
+                        <h5>Week 2</h5>
+                        <p>Exercise 20 minutes each night for 7 days</p>
                         <p>
-                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
+                        <div class="spacer-30"></div>
+                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Complete! </a>
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
-                        <h5>SubGoal 3</h5>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                        <h5>Week 3</h5>
+                        <p>Record progress.</p>
                         <p>
-                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>View </a>
+                        <div class="spacer-30"></div>
+                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Complete!</a>
                         </p>
                     </div>
                 </div> 

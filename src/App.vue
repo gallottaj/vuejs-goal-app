@@ -9,8 +9,8 @@
                         <div class="logo mr-auto">
                             <!--logo-->
                             <a href="/#/">
-                            <img src="img/Original on Transparent.png" alt="logo"/>
-                            </a>
+<!--                             <img src="img/Original on Transparent.png" alt="logo"/>
+ -->                            </a>
                             <!--End logo-->
                         </div>
 

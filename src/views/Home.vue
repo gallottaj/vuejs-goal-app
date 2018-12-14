@@ -147,10 +147,7 @@
         </section>
         <!-- End Work Section -->
 
-        <hr />
-        <hr />
-        <hr />
-        <hr />
+        <div class="spacer-15"></div>
 
         <!-- Counter Section -->
         <section id="counter" class="overlay-dark80 light-color ptb-80" style="background-image: url('img/full/23.jpg');" data-stellar-background-ratio="0.5">
@@ -185,19 +182,19 @@
                     <div class="col-md-2 col-sm-4 col-6">
                         <div class="tipped" data-title="Step 1 - Journal" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
-                          <a v-bind:href="'/#/journals-create'" class="btn btn-primary">Create a journal</a>
+                          <a v-bind:href="'/#/journals-create'" class="btn btn-primary">Create journal</a>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step 2 - Set Goals" data-tipper-options='{"direction":"top"}'>
+                        <div class="tipped" data-title="Step 2 - Set Goal" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-paper-outline"></i></div>
-                          <a v-bind:href="'/#/goals-create'" class="btn btn-primary">Set a goal</a>
+                          <a v-bind:href="'/#/goals-create'" class="btn btn-primary">Set goal</a>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-4 col-6">
                         <div class="tipped" data-title="Step 3 - Set Sub-Goals" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
-                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Set Sub-Goals</a>
+                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Set habits</a>
                         </div>
                     </div>
                       <div class="col-md-2 col-sm-4 col-6">
@@ -220,13 +217,6 @@
        <!--About Section-->
         <section id="about" class="wow fadeIn ptb ptb-sm-80">
             <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-8 offset-md-2">
-                        <h3 class="h4">About Studio</h3>
-                        <p class="lead">Integer tincidunt Cras dapibus. <a class="tipped" data-title="Sample Text" data-tipper-options='{"direction":"top"}'><b>Vivamus elementum</b></a> ultricies nisi vel augue. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante dapibus.</p>
-                    </div>
-                </div>
-
                 <div class="row mt-80">
                     <!-- Welcome Content -->
                     <div class="col-md-7 mb-30">

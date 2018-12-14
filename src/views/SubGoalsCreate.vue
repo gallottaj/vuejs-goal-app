@@ -1,5 +1,5 @@
 <template>
-  <div class="create a goal">
+  <div class="create a subgoal">
         <!-- CONTENT --------------------------------------------------------------------------------->
         <!-- Intro Section -->
         <section class="inner-intro dark-bg bg-image overlay-dark parallax parallax-background1" data-background-img="https://images.unsplash.com/photo-1529307482987-d09357b12fb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
@@ -52,7 +52,7 @@
                             </div>
 
                             <div class="form-field-wrapper">
-                                <textarea class="form-full" id="form-message" rows="7" name="form-message" placeholder="a brief description" required v-model="sub_goal_status"></textarea>
+                                <textarea class="form-full" id="form-message" rows="7" name="form-message" placeholder="a brief description" required v-model="sub_goal_description"></textarea>
                             </div>
 
                             <button class="btn btn-md btn-black form-full" type="submit" id="form-submit" name="submit">Submit</button>
@@ -80,7 +80,7 @@ export default {
       return {
         sub_goal_name: "",
         sub_goal_due_date: "",
-        sub_goal_status: "",
+        sub_goal_description: "",
         goal_id: "",
       };
     },
@@ -95,7 +95,7 @@ export default {
         var params = {
           sub_goal_name: this.sub_goal_name,  
           sub_goal_due_date: this.sub_goal_due_date,
-          sub_goal_status: this.sub_goal_status,
+          sub_goal_description: this.sub_goal_description,
           goal_id: this.goal_id
         };
         axios
