@@ -249,9 +249,8 @@
                         <div class="col-lg-3 col-md-12 col-sm-12">
                             <div class="footer-block">
                                 <a class="footer-logo mb-25" href="home.html">
-                                    <img src="img/logo-black.png" />
+                                    <img src="img/Original on Transparent.png" />
                                 </a>
-                                <p>Our ante tincidunt tempus, Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
                                 <ul class="social">
                                     <li><a target="_blank" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
                                     <li><a target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>
@@ -268,9 +267,7 @@
                                     <li><a href="#">About Company</a></li>
                                     <li><a href="#">Our Team</a></li>
                                     <li><a href="#">Locations</a></li>
-                                    <li><a href="#">History</a></li>
-                                    <li><a href="#">Work With Us</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -278,9 +275,7 @@
                             <div class="footer-block">
                                 <h6 class="link-title">Service</h6>
                                 <ul class="link">
-                                    <li><a href="#">Service</a></li>
-                                    <li><a href="#">Photography</a></li>
-                                    <li><a href="#">Design</a></li>
+                                    
                                     <li><a href="#">Development</a></li>
                                     <li><a href="#">Branding</a></li>
                                     <li><a href="#">Marketing</a></li>
@@ -294,9 +289,7 @@
                                     <li><a href="#">Contact Us</a></li>
                                     <li><a href="#">Portfolio</a></li>
                                     <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Help Center</a></li>
-                                    <li><a href="#">Downloads</a></li>
-                                    <li><a href="#">Shop</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
