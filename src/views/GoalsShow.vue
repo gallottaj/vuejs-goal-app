@@ -61,7 +61,7 @@
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-6 mb-30">
-                                <h5>Reflection 1</h5>
+                                <a href= '/'><h5>Reflection 1</h5></a>
                                 <p>Exercise 10 minutes nightly for 7 days</p>
                             <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
                             </div>
@@ -102,7 +102,7 @@
                         <p>Exercise 10 minutes each night for 7 days</p>
                         <p>
                         <div class="spacer-30"></div>
-                        <a href='/#/subgoals/2' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i> Mark Complete</a>
+                        <a href='/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i> Mark Complete</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
@@ -110,7 +110,7 @@
                         <p>Exercise 20 minutes each night for 7 days</p>
                         <p>
                         <div class="spacer-30"></div>
-                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Mark Complete</a>
+                        <a href='/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Mark Complete</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
@@ -118,7 +118,7 @@
                         <p>Record progress.</p>
                         <p>
                         <div class="spacer-30"></div>
-                        <a href='/#/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Mark Complete</a>
+                        <a href='/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i>Mark Complete</a>
                         </p>
                     </div>
                 </div> 

@@ -31,7 +31,7 @@
                                     </div>
                                 </li> 
                                 <li class="nav-menu-item mega-menu">
-                                    <a href="#">Journals</a>
+                                    <a href="/">Journals</a>
                                     <div class="nav-dropdown mega-dropdown">
                                         <div class="container">
                                             <div class="row">

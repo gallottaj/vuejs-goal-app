@@ -15,6 +15,8 @@ import SubGoalsIndex from './views/SubGoalsIndex.vue'
 import SubGoalsShow from './views/SubGoalsShow.vue'
 import SubGoalsCreate from './views/SubGoalsCreate.vue'
 import ReflectionsIndex from './views/ReflectionsIndex.vue'
+import ReflectionsShow from './views/ReflectionsShow.vue'
+
 
 
 Vue.use(Router)
@@ -99,6 +101,11 @@ export default new Router({
       path: '/reflections',
       name: 'reflectionsIndex',
       component: ReflectionsIndex
+    },
+    {
+      path: '/reflections/:id',
+      name: 'reflectionsShow',
+      component: ReflectionsShow
     },
       {
       path: '/about',
