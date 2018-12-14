@@ -13,6 +13,29 @@
             </div>
         </section>
         <!-- End Intro Section -->
+                        <div class="spacer-30"></div>
+
+                            <ul class="countdown">
+                                <li>
+                                    <span class="days">29</span>
+                                    <p class="days_ref">days</p>
+                                </li>
+                                <li class="seperator">:</li>
+                                <li>
+                                    <span class="hours">11</span>
+                                    <p class="hours_ref">hours</p>
+                                </li>
+                                <li class="seperator">:</li>
+                                <li>
+                                    <span class="minutes">16</span>
+                                    <p class="minutes_ref">minutes</p>
+                                </li>
+                                <li class="seperator">:</li>
+                                <li>
+                                    <span class="seconds">32</span>
+                                    <p class="seconds_ref">seconds</p>
+                                </li>
+                            </ul>   
 
         <!-- Work Detail Section -->
         <section class="pt pt-sm-80">
@@ -178,6 +201,40 @@
         <!-- End Work Next Prev Bar -->
       </div>
 </template>
+
+<style>
+        /* counter clock css */
+        ul.countdown {
+            list-style: none;
+            padding: 0;
+            display: block;
+            text-align: center;
+            font-family: 'arial', sans-serif !important;
+        }
+
+            ul.countdown li {
+                display: inline-block;
+            }
+
+                ul.countdown li span {
+                    font-size: 80px;
+                    font-weight: 300;
+                    line-height: 80px;
+                }
+
+                ul.countdown li.seperator {
+                    font-size: 80px;
+                    line-height: 70px;
+                    vertical-align: top;
+                }
+
+                ul.countdown li p {
+                    color: #a7abb1;
+                    font-size: 14px;
+                }
+        /* end counter clock css */
+</style>
+
 
 
 <script>
