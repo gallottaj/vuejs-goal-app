@@ -1,5 +1,6 @@
 <template>
   <div class="signup">
+    <div class="spacer-60"></div>
     <div class="container">
       <form v-on:submit.prevent="submit()">
         <h1>Signup</h1>

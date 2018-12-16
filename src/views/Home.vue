@@ -192,21 +192,21 @@
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step 3 - Set Sub-Goals" data-tipper-options='{"direction":"top"}'>
+                        <div class="tipped" data-title="Step 3 - Build Habits" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
-                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Set habits</a>
+                          <a v-bind:href="'/#/subgoals-create'" class="btn btn-primary">Build habits</a>
                         </div>
                     </div>
                       <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step 4 - Reflect " data-tipper-options='{"direction":"top"}'>
+                        <div class="tipped" data-title="Step 4 - Inspire " data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-people-outline"></i></div>
-                            <h6>Reflect</h6>
+                            <a v-bind:href="'/#/motivation'" class="btn btn-primary">Inspire</a>
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-4 col-6">
-                        <div class="tipped" data-title="Step6 - Delivery" data-tipper-options='{"direction":"top"}'>
+                        <div class="tipped" data-title="Step 5 - Reflect" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-clock-outline"></i></div>
-                            <h6>Deliver</h6>
+                            <h6>Reflect</h6>
                         </div>
                     </div>
                 </div>
@@ -215,17 +215,14 @@
         <!-- End Process -->
 
        <!--About Section-->
-        <section id="about" class="wow fadeIn ptb ptb-sm-80">
             <div class="container">
                 <div class="row mt-80">
                     <!-- Welcome Content -->
                     <div class="col-md-7 mb-30">
-                        <h4>PROGRESS</h4>
+                        <h4>My Progress</h4>
                         <div class="spacer-15"></div>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur?</p>
+                        <p>Without continual growth and progress, such words as improvement, achievement, and success have no meaning. Benjamin Franklin</p>
                         <div class="spacer-15"></div>
-                        <a class="btn-link-a">More About</a>
                     </div>
                     <!-- End Welcome Content -->
 
@@ -258,12 +255,11 @@
                     <!-- End Skills -->
                 </div>
             </div>
-        </section>
         <!-- End About Section-->
 
-        <hr />
+        <section id="about" class="wow fadeIn ptb ptb-sm-80">
+        </section>
 
-        <hr />
 
               <!-- Scroll Top -->
         <a class="scroll-top">
