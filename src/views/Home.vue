@@ -25,7 +25,7 @@
         <!-- End Quote Section -->
 
             <!-- Work Gallary -->
-            <div class="container-fluid ">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col container-grid nf-col-4">
                         <div class="nf-item branding design coffee">
@@ -175,7 +175,7 @@
         <!-- End Counter Section -->
 
         <!-- Process -->
-        <section id="process" class="ptb ptb-sm-80">
+        <section id="process" class="ptb ptb-sm-80 right">
             <div class="wow fadeInLeft container text-center">
                 <div class="spacer-60"></div>
                 <div class="row">
@@ -215,19 +215,12 @@
         <!-- End Process -->
 
        <!--About Section-->
-            <div class="container">
+            <div class="container center">
                 <div class="row mt-80">
-                    <!-- Welcome Content -->
-                    <div class="col-md-7 mb-30">
-                        <h4>My Progress</h4>
-                        <div class="spacer-15"></div>
-                        <p>Without continual growth and progress, such words as improvement, achievement, and success have no meaning. Benjamin Franklin</p>
-                        <div class="spacer-15"></div>
-                    </div>
-                    <!-- End Welcome Content -->
+                    
 
                     <!-- Skills -->
-                    <div class="col-md-5">
+                    <div class="col-md-9 right">
                         <div class="skillbar" data-percent="55%">
                             <div class="skillbar-title">goal 1</div>
                             <div class="skill-bar-percent">55%</div>
@@ -251,6 +244,9 @@
                             <div class="skill-bar-percent">70%</div>
                             <div class="skillbar-bar"></div>
                         </div>
+                        <div class="spacer-30"></div>
+                        <p><button href='/#/journals-create'class="btn btn-md btn-black-line center"><i class="fa fa-cog left"></i>Get Started</button>
+                        </p>
                     </div>
                     <!-- End Skills -->
                 </div>
