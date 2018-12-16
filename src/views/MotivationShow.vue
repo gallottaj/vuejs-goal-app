@@ -1,7 +1,10 @@
 <template>
   <div class="motivation">
-    <h5>{{body.url}}</h5>
     <img v-bind:src="body.url" class="center">
+    <h5>{{body.title}}</h5>
+    <h5>{{body.date}}</h5>
+    <h5>{{body.explanation}}</h5>
+    <h5>{{body.copyright}}</h5>
   </div>
 </template>
 
