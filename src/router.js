@@ -16,6 +16,8 @@ import SubGoalsShow from './views/SubGoalsShow.vue'
 import SubGoalsCreate from './views/SubGoalsCreate.vue'
 import ReflectionsIndex from './views/ReflectionsIndex.vue'
 import ReflectionsShow from './views/ReflectionsShow.vue'
+import MotivationShow from './views/MotivationShow.vue'
+
 
 
 
@@ -106,6 +108,12 @@ export default new Router({
       path: '/reflections/:id',
       name: 'reflectionsShow',
       component: ReflectionsShow
+    },
+    // motivation
+    {
+      path: '/motivation',
+      name: 'motivationShow',
+      component: MotivationShow
     },
       {
       path: '/about',
