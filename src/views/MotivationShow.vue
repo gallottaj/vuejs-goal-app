@@ -1,10 +1,17 @@
 <template>
   <div class="motivation">
     <h5>{{body.url}}</h5>
+    <img v-bind:src="body.url" class="center">
   </div>
 </template>
 
 <style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 </style>
 
 <script>
