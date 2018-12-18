@@ -245,8 +245,8 @@
                             <div class="skillbar-bar"></div>
                         </div>
                         <div class="spacer-30"></div>
-                        <p><button href='/#/journals-create'class="btn btn-md btn-black-line center"><i class="fa fa-cog left"></i>Get Started</button>
-                        </p>
+                        <button href='/#/journals-create'class="btn btn-md btn-black-line center"><i class="fa fa-cog left"></i>Get Started</button>
+                    
                     </div>
                     <!-- End Skills -->
                 </div>
