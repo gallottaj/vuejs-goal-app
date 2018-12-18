@@ -13,29 +13,7 @@
             </div>
         </section>
         <!-- End Intro Section -->
-                        <div class="spacer-30"></div>
-
-                            <ul class="countdown">
-                                <li>
-                                    <span class="days">29</span>
-                                    <p class="days_ref">days</p>
-                                </li>
-                                <li class="seperator">:</li>
-                                <li>
-                                    <span class="hours">11</span>
-                                    <p class="hours_ref">hours</p>
-                                </li>
-                                <li class="seperator">:</li>
-                                <li>
-                                    <span class="minutes">16</span>
-                                    <p class="minutes_ref">minutes</p>
-                                </li>
-                                <li class="seperator">:</li>
-                                <li>
-                                    <span class="seconds">32</span>
-                                    <p class="seconds_ref">seconds</p>
-                                </li>
-                            </ul>   
+                        
 
         <!-- Work Detail Section -->
         <section class="pt pt-sm-80">
@@ -61,26 +39,22 @@
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-md-6 mb-30">
-                                <a href= '/#/reflections/1'><h5>Reflection 1</h5></a>
+                                <a href= '/#/reflections/1'><h5>What I Learned</h5></a>
                                 <p>Exercise 10 minutes nightly for 7 days</p>
-                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5>Reflection 2</h5>
+                                <h5>Accomplishments</h5>
                                 <p>Exercise 15 minutes nightly for 7 days</p>
-                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
 
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5>Reflection 3</h5>
+                                <h5>Setbacks</h5>
                                 <p>Walk outside at lunch for 25 minutes for 7 days</p>
-                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
 
                             </div>
                             <div class="col-md-6 mb-30">
-                                <h5>Reflection 4</h5>
+                                <h5>Progress</h5>
                                 <p>Track progress</p>
-                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
                             </div>
                         </div>
                     </div>
@@ -88,6 +62,30 @@
             </div>
 
         </section>
+
+        <div class="spacer-30"></div>
+
+                            <ul class="countdown">
+                                <li>
+                                    <span class="days">29</span>
+                                    <p class="days_ref">days</p>
+                                </li>
+                                <li class="seperator">:</li>
+                                <li>
+                                    <span class="hours">11</span>
+                                    <p class="hours_ref">hours</p>
+                                </li>
+                                <li class="seperator">:</li>
+                                <li>
+                                    <span class="minutes">16</span>
+                                    <p class="minutes_ref">minutes</p>
+                                </li>
+                                <li class="seperator">:</li>
+                                <li>
+                                    <span class="seconds">32</span>
+                                    <p class="seconds_ref">seconds</p>
+                                </li>
+                            </ul>   
 
         <hr />
 

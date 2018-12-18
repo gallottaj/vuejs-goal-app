@@ -17,7 +17,7 @@ import SubGoalsCreate from './views/SubGoalsCreate.vue'
 import ReflectionsIndex from './views/ReflectionsIndex.vue'
 import ReflectionsShow from './views/ReflectionsShow.vue'
 import MotivationShow from './views/MotivationShow.vue'
-
+import HabitTracker from './views/HabitTracker.vue'
 
 
 
@@ -114,6 +114,11 @@ export default new Router({
       path: '/motivation',
       name: 'motivationShow',
       component: MotivationShow
+    },
+    {
+      path: '/habittracker',
+      name: 'habitTracker',
+      component: HabitTracker
     },
       {
       path: '/about',

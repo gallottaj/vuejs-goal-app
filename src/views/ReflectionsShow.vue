@@ -37,6 +37,9 @@
                                     <p>{{reflection.reflection_body}}</p>
                                 </div>
                             </div>
+                            <div class="spacer-30"></div>
+                            <p><button class="btn btn-md btn-black-line"><i class="fa fa-cog left"></i>Edit</button>
+                        </p>
                           </div>
                       </div>
 

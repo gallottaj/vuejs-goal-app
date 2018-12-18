@@ -30,12 +30,12 @@
                     <div class="col container-grid nf-col-4">
                         <div class="nf-item branding design coffee">
                             <div class="item-box">
-                                <a class="btn btn-primar" href="/#/goals/3" title="Journal">
+                                <a class="btn btn-primar" href="/#/goals/20" title="Journal">
                                   <img class="item-container" src="https://images.unsplash.com/photo-1543931331-27f622134f7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="1" />
                                     <div class="item-mask">
                                         <div class="item-caption">
-                                            <h5 class="white">Journal 1</h5>
-                                            <p class="white">Due Date</p>
+                                            <h5 class="white">Health and Fitness Journal</h5>
+                                            <p class="white">Due in 30 days</p>
                                         </div>
                                     </div>
                                 </a>
@@ -48,8 +48,8 @@
                                     <img class="item-container" src="https://images.unsplash.com/photo-1544177817-454e1238e05f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="2" />
                                     <div class="item-mask">
                                         <div class="item-caption">
-                                            <h5 class="white">Journal 2</h5>
-                                            <p class="white">Due Date</p>
+                                            <h5 class="white">Work</h5>
+                                            <p class="white">Due in 90 days</p>
                                         </div>
                                     </div>
                                 </a>
@@ -62,8 +62,8 @@
                                     <img class="item-container" src="https://images.unsplash.com/photo-1544084944-15269ec7b5a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="4" />
                                     <div class="item-mask">
                                         <div class="item-caption">
-                                            <h5 class="white">Journal 3</h5>
-                                            <p class="white">Due Date</p>
+                                            <h5 class="white">Education</h5>
+                                            <p class="white">Due in 60 days</p>
                                         </div>
                                     </div>
                                 </a>
@@ -222,25 +222,25 @@
                     <!-- Skills -->
                     <div class="col-md-9 right">
                         <div class="skillbar" data-percent="55%">
-                            <div class="skillbar-title">goal 1</div>
+                            <div class="skillbar-title">lose 10 lbs</div>
                             <div class="skill-bar-percent">55%</div>
                             <div class="skillbar-bar"></div>
                         </div>
 
                         <div class="skillbar" data-percent="80%">
-                            <div class="skillbar-title">goal 2</div>
+                            <div class="skillbar-title">be on time to work</div>
                             <div class="skill-bar-percent">80%</div>
                             <div class="skillbar-bar"></div>
                         </div>
 
                         <div class="skillbar" data-percent="40%">
-                            <div class="skillbar-title">goal 3</div>
+                            <div class="skillbar-title">study daily</div>
                             <div class="skill-bar-percent">40%</div>
                             <div class="skillbar-bar"></div>
                         </div>
 
                         <div class="skillbar" data-percent="70%">
-                            <div class="skillbar-title">goal 4</div>
+                            <div class="skillbar-title">make new friends</div>
                             <div class="skill-bar-percent">70%</div>
                             <div class="skillbar-bar"></div>
                         </div>
