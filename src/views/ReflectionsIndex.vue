@@ -40,6 +40,25 @@
                             </div>
                           </div>
                       </div>
+                      <div class="spacer-60"></div>
+                      <div class="col-md-8 offset-md-2">
+                        <div class="tabs">
+                            <ul>
+                                <li><a href="#tabs-1">Type</a></li>
+                                <li><a href="#tabs-2">Content</a></li>
+                            </ul>
+                            <div class="ui-tab-content">
+                                <div id="tabs-1">
+                                    <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
+                                    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+                                </div>
+                                <div id="tabs-2">
+                                    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
+                                    <p>Tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
                     </div>
                 </div>
           </section> 
