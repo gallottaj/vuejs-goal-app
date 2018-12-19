@@ -6,7 +6,7 @@
                 <div class="row title">
                     <h2 class="h2">Reflections</h2>
                     <div class="page-breadcrumb">
-                        <a>Home</a>/<span>Tab & Accordian</span>
+                        <a>Home</a>
                     </div>
                 </div>
             </div>
@@ -30,13 +30,11 @@
                             </ul>
                             <div class="ui-tab-content">
                                 <div id="tabs-1">
-                                    <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
-                                    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+                                    <p>Today I learned..</p>
                                 </div>
                                 <div id="tabs-2">
-                                    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
-                                    <p>Tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
-                                </div>
+                                    <p>Celebrate small wins. 1 lb. down!</p>
+                              </div>
                             </div>
                           </div>
                       </div>
@@ -49,12 +47,10 @@
                             </ul>
                             <div class="ui-tab-content">
                                 <div id="tabs-1">
-                                    <p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
-                                    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+                                    <p>Daily Check In</p>
                                 </div>
                                 <div id="tabs-2">
-                                    <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
-                                    <p>Tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
+                                    <p>Woke up feeling great.</p>
                                 </div>
                             </div>
                           </div>
