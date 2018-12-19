@@ -1,13 +1,13 @@
 <template>
-  <div class="create journal">
+  <div class="create a reflection">
         <!-- CONTENT --------------------------------------------------------------------------------->
         <!-- Intro Section -->
-        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="https://images.unsplash.com/photo-1543964496-d83d90140d97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80">
+        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="https://images.unsplash.com/photo-1504722754074-60e9f87d2817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
             <div class="container">
                 <div class="row title">
-                    <h2 class="h2">Journal</h2>
+                    <h2 class="h2">Reflect</h2>
                     <div class="page-breadcrumb">
-                        <a>Home</a>/<span>Journal</span>
+                        <a>Home</a>/<span>Reflection</span>
                     </div>
                 </div>
             </div>
@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 offset-md-3 text-center">
-                        <h3>Create A Journal Entry</h3>
+                        <h3>Reflect</h3>
                     </div>
                 </div>
                 <div class="spacer-75"></div>
@@ -41,14 +41,18 @@
                             <!-- END MAIL SENDING UNSUCCESSFULL -->
 
                             <div class="form-field-wrapper">
-                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="title" required v-model="entry_type">
-                            </div>
-                            <div class="form-field-wrapper">
-                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="user id" required v-model="user_id">
+                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Type" required v-model="reflection_type">
                             </div>
 
                             <div class="form-field-wrapper">
-                                <textarea class="form-full" id="form-message" rows="7" name="form-message" placeholder="a brief description" required></textarea>
+                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Entry Date" required v-model="reflection_entry_date">
+                            </div>
+                            <div class="form-field-wrapper">
+                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Title" required v-model="reflection_title">
+                            </div>
+
+                            <div class="form-field-wrapper">
+                                <textarea class="form-full" id="form-message" rows="7" name="form-message" placeholder="Content" required v-model="reflection_body"></textarea>
                             </div>
 
                             <button class="btn btn-md btn-black form-full" type="submit" id="form-submit" name="submit">Submit</button>
@@ -74,33 +78,33 @@
 export default {
     data: function() {
       return {
-        entry_type: "",
-        entry_body: "",
-        entry_title: "",
-        user_id: "",
+        reflection_type: "",
+        reflection_title: "",
+        reflection_body: "",
+        reflection_entry_date: "",
       };
     },
     created: function() {
-      axios.get('http://localhost:3000/api/journals').then(function(response) {
+      axios.get('http://localhost:3000/api/reflections').then(function(response) {
         console.log(response.data);
-        this.journals = response.journals;
+        this.reflections = response.reflections;
       }.bind(this));
     },
     methods: {
       submit: function() {
         var params = {
-          entry_type: this.entry_type,
-          entry_body: this.entry_body,
-          entry_title: this.entry_title,
-          user_id: this.user_id
+          reflection_type: this.reflection_type,  
+          reflection_title: this.reflection_title,
+          reflection_body: this.reflection_body,
+          reflection_entry_date: this.reflection_entry_date
         };
         axios
-          .post('http://localhost:3000/api/journals', params)
+          .post('http://localhost:3000/api/reflections', params)
           .then(response => {
-            this.$router.push("/goals-create");
-          // })
-          // .catch(error => {
-          //   this.errors = error.response.data.errors;
+            this.$router.push("/reflections");
+          })
+          .catch(error => {
+            this.errors = error.response.data.errors;
           });
       }
     }

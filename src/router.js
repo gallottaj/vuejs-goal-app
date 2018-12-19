@@ -18,6 +18,9 @@ import ReflectionsIndex from './views/ReflectionsIndex.vue'
 import ReflectionsShow from './views/ReflectionsShow.vue'
 import MotivationShow from './views/MotivationShow.vue'
 import HabitTracker from './views/HabitTracker.vue'
+import WellDone from './views/WellDone.vue'
+import ReflectionsCreate from './views/ReflectionsCreate.vue'
+
 
 
 
@@ -119,6 +122,16 @@ export default new Router({
       path: '/habittracker',
       name: 'habitTracker',
       component: HabitTracker
+    },
+    {
+      path: '/welldone',
+      name: 'wellDone',
+      component: WellDone
+    },
+    {
+      path: '/reflections-create',
+      name: 'reflections',
+      component: ReflectionsCreate
     },
       {
       path: '/about',
