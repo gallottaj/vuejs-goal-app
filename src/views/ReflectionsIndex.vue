@@ -1,7 +1,7 @@
 <template>
   <div class="home">
         <!-- Intro Section -->
-        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="img/full/02.jpg">
+        <section class="inner-intro bg-image overlay-light parallax parallax-background1" data-background-img="https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
             <div class="container">
                 <div class="row title">
                     <h2 class="h2">Reflections</h2>

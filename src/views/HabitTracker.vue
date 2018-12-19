@@ -58,7 +58,7 @@ export default {
           type: 'bar'
         },
         title: {
-          text: 'Activity'
+          text: 'Average Activity'
         },
         xAxis: {
           categories: ['Sleep', 'Exercise', 'Water']
