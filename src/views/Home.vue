@@ -244,14 +244,72 @@
                             <div class="skill-bar-percent">70%</div>
                             <div class="skillbar-bar"></div>
                         </div>
-                        <div class="spacer-30"></div>
-                        <button href='/#/journals-create'class="btn btn-md btn-black-line center"><i class="fa fa-cog left"></i>Get Started</button>
-                    
-                    </div>
+                        
                     <!-- End Skills -->
                 </div>
             </div>
         <!-- End About Section-->
+
+                <!-- Logos Slider -->
+        <section class="wow fadeIn ptb ptb-sm-80">
+            <div class="container">
+                <h4 class="text-center">Achievements</h4>
+                <div class="spacer-30"></div>
+                <div class="owl-carousel client-carousel nf-carousel-theme ">
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/01.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/02.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/03.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/04.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/05.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/06.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/08.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/01.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/02.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="client-logo">
+                            <img src="img/logos/03.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Logos Slider -->
 
         <section id="about" class="wow fadeIn ptb ptb-sm-80">
         </section>
