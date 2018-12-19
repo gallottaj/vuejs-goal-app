@@ -206,7 +206,7 @@
                     <div class="col-md-2 col-sm-4 col-6">
                         <div class="tipped" data-title="Step 5 - Reflect" data-tipper-options='{"direction":"top"}'>
                             <div class="page-icon-top"><i class="ion ion-ios-clock-outline"></i></div>
-                            <a v-bind:href="'/#/reflections'" class="btn btn-primary">Reflect</a>
+                            <a v-bind:href="'/#/reflections-create'" class="btn btn-primary">Reflect</a>
                         </div>
                     </div>
                 </div>
