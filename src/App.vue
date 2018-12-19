@@ -14,6 +14,8 @@
                             <!--End logo-->
                         </div>
 
+                        <!-- HOME -->
+
                         <div class="nav-menu ml-auto">
                             <ul class="">
                                 <li class="nav-menu-item">
@@ -30,148 +32,34 @@
                                         </ul>
                                     </div>
                                 </li> 
-                                <li class="nav-menu-item mega-menu">
-                                    <a href="/">Journals</a>
-                                    <div class="nav-dropdown mega-dropdown">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-lg-3">
-                                                    <ul>
-                                                        <li><span class="dropdown-title">Grid</span></li>
-                                                        <li><a href="portfolio-grid-2col.html">2 Columns</a></li>
-                                                        <li><a href="/#/">View All</a></li>
-                                                        <li><a href="portfolio-grid-3col.html">3 Columns</a></li>
-                                                        <li><a href="portfolio-grid-3col-no_spacing.html">3 Columns no-Spacing</a></li>
-                                                        <li><a href="portfolio-grid-4col.html">4 Columns</a></li>
-                                                        <li><a href="portfolio-grid-4col-no_spacing.html">4 Columns no-Spacing</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-3">
-                                                    <ul>
-                                                        <li><span class="dropdown-title">Masonry</span></li>
-                                                        <li><a href="portfolio-masonry-2col.html">2 Columns</a></li>
-                                                        <li><a href="portfolio-masonry-2col-no_spacing.html">2 Columns no-Spacing</a></li>
-                                                        <li><a href="portfolio-masonry-3col.html">3 Columns</a></li>
-                                                        <li><a href="portfolio-masonry-3col-no_spacing.html">3 Columns no-Spacing</a></li>
-                                                        <li><a href="portfolio-masonry-4col.html">4 Columns</a></li>
-                                                        <li><a href="portfolio-masonry-4col-no_spacing.html">4 Columns no-Spacing</a></li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li><span class="dropdown-title">Lightbox</span></li>
-                                                        <li><a href="portfolio-lightbox-grid.html">Grid</a></li>
-                                                        <li><a href="portfolio-lightbox-masonry.html">Masonry</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-3">
-                                                    <ul>
-                                                        <li><span class="dropdown-title">Wide</span></li>
-                                                        <li><a href="portfolio-wide-grid.html">Grid</a></li>
-                                                        <li><a href="portfolio-wide-grid-no_spacing.html">Grid no-Spacing</a></li>
-                                                        <li><a href="portfolio-wide-masonry.html">Masonry</a></li>
-                                                        <li><a href="portfolio-wide-masonry-no_spacing.html">Masonry no-Spacing</a></li>
-                                                    </ul>
-                                                    <ul>
-                                                        <li><span class="dropdown-title">Classical</span></li>
-                                                        <li><a href="portfolio-classical-spacing.html">Spacing</a></li>
-                                                        <li><a href="portfolio-classical-no_spacing.html">no-Spacing</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-3">
-                                                    <ul>
-                                                        <li><span class="dropdown-title">Single</span></li>
-                                                        <li><a href="portfolio-single1.html">Single 1</a></li>
-                                                        <li><a href="portfolio-single2.html">Single 2</a></li>
-                                                        <li><a href="portfolio-single3.html">Single 3</a></li>
-                                                        <li><a href="portfolio-single4.html">Single 4</a></li>
-                                                        <li><a href="portfolio-single5-slider.html">Single 5 - Slider</a></li>
-                                                        <li><a href="portfolio-single6-video.html">Single 6 - Video</a></li>
-                                                        <li><a href="portfolio-single7-youtube.html">Single 7 - youtube</a></li>
-                                                        <li><a href="portfolio-single8-vimeo.html">Single 8 - vimeo</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nav-menu-item">
-                                    <a href="#">Goals</a>
-                                    <div class="nav-dropdown col3-dropdown center">
-                                        <div class="row">
-                                            <div class="col-lg-4">
-                                                <ul>
-                                                    <li><span class="dropdown-title">Grid</span></li>
-                                                    <li><a href="blog-grid-2col.html">2 Columns</a></li>
-                                                    <li><a href="blog-grid-2col-sidebar.html">2 Columns - sidebar</a></li>
-                                                    <li><a href="blog-grid-3col.html">3 Columns</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <ul>
-                                                    <li><span class="dropdown-title">Masonry</span></li>
-                                                    <li><a href="blog-masonry-2col.html">2 Columns</a></li>
-                                                    <li><a href="blog-masonry-2col-sidebar.html">2 Columns - sidebar</a></li>
-                                                    <li><a href="blog-masonry-3col.html">3 Columns</a></li>
-                                                </ul>
-                                                <ul>
-                                                    <li><span class="dropdown-title">One Columns</span></li>
-                                                    <li><a href="blog-1col.html">no-sidebar</a></li>
-                                                    <li><a href="blog-1col-sidebar.html">with sidebar</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-4">
-                                                <ul>
-                                                    <li><span class="dropdown-title">Blog Detail</span></li>
-                                                    <li><a href="blog-single-image-post.html">Image Post</a></li>
-                                                    <li><a href="blog-single-slider-post.html">Slider Post</a></li>
-                                                    <li><a href="blog-single-video-post.html">Video Post</a></li>
-                                                    <li><a href="blog-single-audio-post.html">Audio Post</a></li>
-                                                    <li><a href="blog-single-youtube-post.html">Youtube Post</a></li>
-                                                    <li><a href="blog-single-vimeo-post.html">Vimeo Post</a></li>
-                                                    <li><a href="blog-single-quote-post.html">Quote Post</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nav-menu-item">
-                                    <a href="#">Habits</a>
-                                    <div class="nav-dropdown">
-                                        <ul>
-                                            <li><a href="element-components.html">Components</a></li>
-                                            <li><a href="element-tabs-and-accordian.html">Tabs & Accordian</a></li>
-                                            <li><a href="element-slider.html">Slider</a></li>
-                                            <li><a href="element-team.html">Team</a></li>
-                                            <li><a href="element-pricing.html">Pricing</a></li>
-                                            <li><a href="element-video-and-audio.html">Video / Audio</a></li>
-                                            <li><a href="element-typography.html">Typography</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-menu-item">
-                                    <a href="#">Reflections</a>
-                                    <div class="nav-dropdown col2-dropdown left">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <ul>
-                                                    <li><a href="shop-2col.html">Shop 2 Columns</a></li>
-                                                    <li><a href="shop-3col.html">Shop 3 Columns</a></li>
-                                                    <li><a href="shop-4col.html">Shop 4 Columns</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <ul>
-                                                    <li><a href="shop-left-sidebar.html">Left Sidebar</a></li>
-                                                    <li><a href="shop-right-sidebar.html">Right Sidebar</a></li>
-                                                    <li><a href="shop-detail.html">Shop Detail</a></li>
-                                                    <li><a href="shop-checkout.html">Checkout</a></li>
-                                                </ul>
-                                            </div>
 
-                                        </div>
-                                    </div>
+                                <!-- JOURNALS -->
+
+                                <li class="nav-menu-item">
+                                  <a href="/">Journals</a>
                                 </li>
+
+                                <!-- REFLECTIONS -->
+
+                                <li class="nav-menu-item">
+                                    <a href="/#/reflections">Reflections</a>
+                                </li>
+
+                                <!-- HABIT TRACKER -->
+
+                                <li class="nav-menu-item">
+                                    <a href="/#/habittracker">Habit Tracker</a>
+                                </li>
+
+                                <!-- MOTIVATION -->
+
+                                <li class="nav-menu-item">
+                                    <a href="/#/motivation">Inspire</a>
+                                </li>
+                                
                             </ul>
                         </div>
+
                         <div class="nav-icons">
                             <div class="nav-icon-item d-lg-none">
                                 <span class="nav-icon-trigger menu-mobile-btn align-middle"><i class="ion"></i></span>
@@ -184,52 +72,6 @@
                                     </form>
                                 </div>
                             </div>
-
-                            <div class="nav-icon-item">
-                                <span class="nav-icon-trigger cart-menu_btn align-middle"><i class="ion ion-ios-cart-outline"></i></span>
-                                <div class="cart-menu-bar">
-                                    <ul class="cart-menu-list">
-                                        <li>
-                                            <a class="product-img">
-                                                <img src="img/product/02.jpg" alt="fashion">
-                                            </a>
-                                            <div class="product-content">
-                                                <a href="javascript:void(0)" class="product-remove">
-                                                    <i class="ion ion-android-close"></i>
-                                                </a>
-                                                <a class="product-title">Digital Trending Z Camera</a>
-                                                <div class="product-cart-collateral">
-                                                    <span class="qty-cart">1</span><span>x</span><span class="product-price-amount color--dark"><span class="currency-sign">$</span>399.00</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="product-img">
-                                                <img src="img/product/02.jpg" alt="fashion">
-                                            </a>
-                                            <div class="product-content">
-                                                <a href="javascript:void(0)" class="product-remove">
-                                                    <i class="ion ion-android-close"></i>
-                                                </a>
-                                                <a class="product-title">Digital Trending Z Camera</a>
-                                                <div class="product-cart-collateral">
-                                                    <span class="qty-cart">1</span><span>x</span><span class="product-price-amount color--dark"><span class="currency-sign">$</span>399.00</span>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <p class="lead dark cart-total">
-                                        <span>Subtotle</span>
-                                        <span class="float-right"><span class="currency-sign">$</span>798</span>
-                                    </p>
-                                    <a class="btn btn-xs btn-color-b form-full" href="shop-checkout.html">Checkout</a>
-                                </div>
-                            </div>
-
-                            <div class="nav-icon-item">
-                                <span class="nav-icon-trigger sidebar-menu_btn align-middle"><i class="ion ion-navicon"></i></span>
-                            </div>
-
                         </div>
                     </div>
                 </div>

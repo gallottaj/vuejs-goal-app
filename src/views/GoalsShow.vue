@@ -96,7 +96,7 @@
                         <p>Exercise 10 minutes each night for 7 days</p>
                         <p>
                         <div class="spacer-30"></div>
-                        <a href='/' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i> Mark Complete</a>
+                        <a href='/#/habittracker' class="btn btn-md btn-color-line"><i class="fa fa-cog left"></i> Mark Complete</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-6 mb-45">
